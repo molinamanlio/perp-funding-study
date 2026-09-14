@@ -1,6 +1,6 @@
 # U3 — Discrepancies: recalled figures vs. recomputation
 
-Generated 2026-09-14T22:16:23+00:00 by `scripts/analyse.py`. The recalled figures come from the author's original run over the window 2025-09-10 04:00 → 2026-09-10 03:00 UTC (8,760 hourly Hyperliquid settlements, simple annualisation). They are a checklist, not a target: nothing in the calculation was adjusted to approach them. §1 recomputes each figure on exactly that window from `data/full/`; §2 asks whether each claim holds on the full history.
+Generated 2026-09-14T23:38:57+00:00 by `scripts/analyse.py`. The recalled figures come from the author's original run over the window 2025-09-10 04:00 → 2026-09-10 03:00 UTC (8,760 hourly Hyperliquid settlements, simple annualisation). They are a checklist, not a target: nothing in the calculation was adjusted to approach them. §1 recomputes each figure on exactly that window from `data/full/`; §2 asks whether each claim holds on the full history.
 
 ## 1. Same window, same convention
 

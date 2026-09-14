@@ -94,6 +94,8 @@ class Series:
         self.rate_str = [r["fundingRate"] for r in rows]
         self.rate_dec = [Decimal(s) for s in self.rate_str]
         self.rate = np.array([float(s) for s in self.rate_str])
+        # Hyperliquid also serves the hourly-averaged premium (8 h basis); Binance does not.
+        self.premium = np.array([float(r["premium"]) for r in rows]) if venue == "HL" else None
         self.first_ms, self.last_ms = int(self.t[0]), int(self.t[-1])
         self.assign_intervals()
         self.ann = self.rate * (HOURS_PER_YEAR / self.ivl_h)
@@ -580,6 +582,12 @@ def main():
     fig_venues(cmp)
     fig_distribution(ys_hl, ys_bn)
 
+    prev = os.path.join(RES, "analysis.json")
+    if os.path.exists(prev):            # keep the U3-bis block written by scripts/analyse_clamp.py
+        with open(prev) as f:
+            old = json.load(f)
+        if "u3bis" in old:
+            R["u3bis"] = old["u3bis"]
     with open(os.path.join(RES, "analysis.json"), "w") as f:
         json.dump(R, f, indent=1, default=str)
     interpretations(R)
@@ -917,6 +925,10 @@ def write_docs(R):
                          f"{st['q25_ann_pct']:.2f}", f"{st['q75_ann_pct']:.2f}", f"{st['q95_ann_pct']:.1f}", f"{st['min_ann_pct']:.0f}", f"{st['max_ann_pct']:.0f}"])
     L.append("Binance per calendar year, %/yr:\n\n" + md_table(["Symbol", "Year", "Mean", "Median", "p5", "p25", "p75", "p95", "Min", "Max"], rows) + "\n")
     L.append(R.get("interpretation_03", ""))
+    sec8 = os.path.join(RES, "03-section-8.md")   # written by scripts/analyse_clamp.py (U3-bis)
+    if os.path.exists(sec8):
+        with open(sec8) as f:
+            L.append(f.read())
     with open(os.path.join(DOCS, "03-analysis.md"), "w") as f:
         f.write("\n".join(L))
 
