@@ -1,0 +1,245 @@
+[
+ {
+  "series": "funding-BTC.jsonl",
+  "baseline_records": 8760,
+  "downloaded_records": 28734,
+  "identical": 8760,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 19974,
+  "only_downloaded_before_span": 19882,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 92,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2025-09-10 04:00:00.083",
+   "2026-09-10 03:00:00.048"
+  ],
+  "downloaded_span": [
+   "2023-05-12 00:00:00.048",
+   "2026-09-13 23:00:00.023"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "ee32c3534656c22c52547db1bac84e7c798d512359cf01472ad20c3811565646"
+ },
+ {
+  "series": "funding-ETH.jsonl",
+  "baseline_records": 8760,
+  "downloaded_records": 28734,
+  "identical": 8760,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 19974,
+  "only_downloaded_before_span": 19882,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 92,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2025-09-10 04:00:00.083",
+   "2026-09-10 03:00:00.048"
+  ],
+  "downloaded_span": [
+   "2023-05-12 00:00:00.048",
+   "2026-09-13 23:00:00.023"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "8f1b26c38d9c6a9fac6173f6fbeeab5a8000e0bf8039ce291b7aadf7592edba1"
+ },
+ {
+  "series": "funding-SOL.jsonl",
+  "baseline_records": 8760,
+  "downloaded_records": 28734,
+  "identical": 8760,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 19974,
+  "only_downloaded_before_span": 19882,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 92,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2025-09-10 04:00:00.083",
+   "2026-09-10 03:00:00.048"
+  ],
+  "downloaded_span": [
+   "2023-05-12 00:00:00.048",
+   "2026-09-13 23:00:00.023"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "8d2870b5587ce59d18b8ea294203ce9eba8bf581fe883bb2f5e8930d7635ebcb"
+ },
+ {
+  "series": "funding-HYPE.jsonl",
+  "baseline_records": 8760,
+  "downloaded_records": 15542,
+  "identical": 8760,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 6782,
+  "only_downloaded_before_span": 6690,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 92,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2025-09-10 04:00:00.083",
+   "2026-09-10 03:00:00.048"
+  ],
+  "downloaded_span": [
+   "2024-12-05 10:00:00.004",
+   "2026-09-13 23:00:00.023"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "ef09c4e87562220011191e4a78eabfae5e62e723b9abd5522ff563900ea81b94"
+ },
+ {
+  "series": "funding-PURR.jsonl",
+  "baseline_records": 8760,
+  "downloaded_records": 16286,
+  "identical": 8760,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 7526,
+  "only_downloaded_before_span": 7434,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 92,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2025-09-10 04:00:00.083",
+   "2026-09-10 03:00:00.048"
+  ],
+  "downloaded_span": [
+   "2024-11-04 10:00:00.074",
+   "2026-09-13 23:00:00.023"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "4109944b9c9e5cf74f5eaf6f0fa58acfb5ce9099dfa5c7f73928eafadc63235e"
+ },
+ {
+  "series": "binance-funding-BTCUSDT.jsonl",
+  "baseline_records": 7673,
+  "downloaded_records": 7683,
+  "identical": 7673,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 10,
+  "only_downloaded_before_span": 0,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 10,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2019-09-10 08:00:00.000",
+   "2026-09-10 16:00:00.002"
+  ],
+  "downloaded_span": [
+   "2019-09-10 08:00:00.000",
+   "2026-09-14 00:00:00.000"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "d947507125dec091c45dcdfc441e06e850d6ac65148985e6fbad9a5ee8ec3670"
+ },
+ {
+  "series": "binance-funding-ETHUSDT.jsonl",
+  "baseline_records": 7439,
+  "downloaded_records": 7449,
+  "identical": 7439,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 10,
+  "only_downloaded_before_span": 0,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 10,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2019-11-27 08:00:00.000",
+   "2026-09-10 16:00:00.002"
+  ],
+  "downloaded_span": [
+   "2019-11-27 08:00:00.000",
+   "2026-09-14 00:00:00.000"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "d17adb1bac297f3e44d72d881dc5fc4f23897e3cd8e9101b2ea573e27e51104b"
+ },
+ {
+  "series": "binance-funding-SOLUSDT.jsonl",
+  "baseline_records": 6640,
+  "downloaded_records": 6650,
+  "identical": 6640,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 10,
+  "only_downloaded_before_span": 0,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 10,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2020-09-13 16:00:00.004",
+   "2026-09-10 16:00:00.002"
+  ],
+  "downloaded_span": [
+   "2020-09-13 16:00:00.004",
+   "2026-09-14 00:00:00.000"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "54e2b1dfcfb267ac6ce746c0bfb11bb917e4a2aec21bef60d1a1db61c91ae024"
+ },
+ {
+  "series": "binance-funding-HYPEUSDT.jsonl",
+  "baseline_records": 2809,
+  "downloaded_records": 2829,
+  "identical": 2809,
+  "differ": 0,
+  "differ_fields": {},
+  "differ_examples": [],
+  "only_baseline": 0,
+  "only_baseline_examples": [],
+  "only_downloaded": 20,
+  "only_downloaded_before_span": 0,
+  "only_downloaded_inside_span": 0,
+  "only_downloaded_after_span": 20,
+  "only_downloaded_inside_examples": [],
+  "same_minute_pairs_among_only": 0,
+  "baseline_span": [
+   "2025-05-30 12:00:00.006",
+   "2026-09-10 16:00:00.002"
+  ],
+  "downloaded_span": [
+   "2025-05-30 12:00:00.006",
+   "2026-09-14 00:00:00.000"
+  ],
+  "sha_equal": false,
+  "downloaded_sha256": "d01379308e3148a20b58f866698b172da1101b7c66a0eae7fc4dda148bb47513"
+ }
+]

@@ -1,0 +1,1032 @@
+{
+ "funding-BTC.jsonl": [
+  {
+   "interval_minutes": 480,
+   "from": 1683849600048,
+   "to": 1684800000022,
+   "deltas": 33,
+   "delta_ms_min": 28799336,
+   "delta_ms_max": 28800605,
+   "interval_hours": 8.0,
+   "from_utc": "2023-05-12 00:00",
+   "to_utc": "2023-05-23 00:00"
+  },
+  {
+   "interval_minutes": 504,
+   "from": 1684800000022,
+   "to": 1684830233040,
+   "deltas": 1,
+   "delta_ms_min": 30233018,
+   "delta_ms_max": 30233018,
+   "interval_hours": 8.4,
+   "from_utc": "2023-05-23 00:00",
+   "to_utc": "2023-05-23 08:23"
+  },
+  {
+   "interval_minutes": 456,
+   "from": 1684830233040,
+   "to": 1684857600079,
+   "deltas": 1,
+   "delta_ms_min": 27367039,
+   "delta_ms_max": 27367039,
+   "interval_hours": 7.6,
+   "from_utc": "2023-05-23 08:23",
+   "to_utc": "2023-05-23 16:00"
+  },
+  {
+   "interval_minutes": 480,
+   "from": 1684857600079,
+   "to": 1686182400254,
+   "deltas": 46,
+   "delta_ms_min": 28799617,
+   "delta_ms_max": 28800332,
+   "interval_hours": 8.0,
+   "from_utc": "2023-05-23 16:00",
+   "to_utc": "2023-06-08 00:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1686182400254,
+   "to": 1688324400235,
+   "deltas": 595,
+   "delta_ms_min": 3599025,
+   "delta_ms_max": 3600931,
+   "interval_hours": 1.0,
+   "from_utc": "2023-06-08 00:00",
+   "to_utc": "2023-07-02 19:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1688324400235,
+   "to": 1688331600180,
+   "deltas": 1,
+   "delta_ms_min": 7199945,
+   "delta_ms_max": 7199945,
+   "interval_hours": 2.0,
+   "from_utc": "2023-07-02 19:00",
+   "to_utc": "2023-07-02 21:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1688331600180,
+   "to": 1692817200029,
+   "deltas": 1246,
+   "delta_ms_min": 3594734,
+   "delta_ms_max": 3605298,
+   "interval_hours": 1.0,
+   "from_utc": "2023-07-02 21:00",
+   "to_utc": "2023-08-23 19:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1692817200029,
+   "to": 1692824400190,
+   "deltas": 1,
+   "delta_ms_min": 7200161,
+   "delta_ms_max": 7200161,
+   "interval_hours": 2.0,
+   "from_utc": "2023-08-23 19:00",
+   "to_utc": "2023-08-23 21:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1692824400190,
+   "to": 1695852000020,
+   "deltas": 841,
+   "delta_ms_min": 3597482,
+   "delta_ms_max": 3602196,
+   "interval_hours": 1.0,
+   "from_utc": "2023-08-23 21:00",
+   "to_utc": "2023-09-27 22:00"
+  },
+  {
+   "interval_minutes": 62,
+   "from": 1695852000020,
+   "to": 1695855711280,
+   "deltas": 1,
+   "delta_ms_min": 3711260,
+   "delta_ms_max": 3711260,
+   "interval_hours": 1.0333333333333334,
+   "from_utc": "2023-09-27 22:00",
+   "to_utc": "2023-09-27 23:01"
+  },
+  {
+   "interval_minutes": 58,
+   "from": 1695855711280,
+   "to": 1695859200160,
+   "deltas": 1,
+   "delta_ms_min": 3488880,
+   "delta_ms_max": 3488880,
+   "interval_hours": 0.9666666666666667,
+   "from_utc": "2023-09-27 23:01",
+   "to_utc": "2023-09-28 00:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1695859200160,
+   "to": 1702846800189,
+   "deltas": 1941,
+   "delta_ms_min": 3574694,
+   "delta_ms_max": 3625266,
+   "interval_hours": 1.0,
+   "from_utc": "2023-09-28 00:00",
+   "to_utc": "2023-12-17 21:00"
+  },
+  {
+   "interval_minutes": 64,
+   "from": 1702846800189,
+   "to": 1702850650610,
+   "deltas": 1,
+   "delta_ms_min": 3850421,
+   "delta_ms_max": 3850421,
+   "interval_hours": 1.0666666666666667,
+   "from_utc": "2023-12-17 21:00",
+   "to_utc": "2023-12-17 22:04"
+  },
+  {
+   "interval_minutes": 56,
+   "from": 1702850650610,
+   "to": 1702854000367,
+   "deltas": 1,
+   "delta_ms_min": 3349757,
+   "delta_ms_max": 3349757,
+   "interval_hours": 0.9333333333333333,
+   "from_utc": "2023-12-17 22:04",
+   "to_utc": "2023-12-17 23:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1702854000367,
+   "to": 1723723200001,
+   "deltas": 5797,
+   "delta_ms_min": 3599545,
+   "delta_ms_max": 3600460,
+   "interval_hours": 1.0,
+   "from_utc": "2023-12-17 23:00",
+   "to_utc": "2024-08-15 12:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1723723200001,
+   "to": 1723730400074,
+   "deltas": 1,
+   "delta_ms_min": 7200073,
+   "delta_ms_max": 7200073,
+   "interval_hours": 2.0,
+   "from_utc": "2024-08-15 12:00",
+   "to_utc": "2024-08-15 14:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1723730400074,
+   "to": 1752915600024,
+   "deltas": 8107,
+   "delta_ms_min": 3598808,
+   "delta_ms_max": 3601065,
+   "interval_hours": 1.0,
+   "from_utc": "2024-08-15 14:00",
+   "to_utc": "2025-07-19 09:00"
+  },
+  {
+   "interval_minutes": 75,
+   "from": 1752915600024,
+   "to": 1752920087645,
+   "deltas": 1,
+   "delta_ms_min": 4487621,
+   "delta_ms_max": 4487621,
+   "interval_hours": 1.25,
+   "from_utc": "2025-07-19 09:00",
+   "to_utc": "2025-07-19 10:14"
+  },
+  {
+   "interval_minutes": 45,
+   "from": 1752920087645,
+   "to": 1752922800083,
+   "deltas": 1,
+   "delta_ms_min": 2712438,
+   "delta_ms_max": 2712438,
+   "interval_hours": 0.75,
+   "from_utc": "2025-07-19 10:14",
+   "to_utc": "2025-07-19 11:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1752922800083,
+   "to": 1753614000053,
+   "deltas": 192,
+   "delta_ms_min": 3599900,
+   "delta_ms_max": 3600129,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-19 11:00",
+   "to_utc": "2025-07-27 11:00"
+  },
+  {
+   "interval_minutes": 62,
+   "from": 1753614000053,
+   "to": 1753617710963,
+   "deltas": 1,
+   "delta_ms_min": 3710910,
+   "delta_ms_max": 3710910,
+   "interval_hours": 1.0333333333333334,
+   "from_utc": "2025-07-27 11:00",
+   "to_utc": "2025-07-27 12:01"
+  },
+  {
+   "interval_minutes": 58,
+   "from": 1753617710963,
+   "to": 1753621200023,
+   "deltas": 1,
+   "delta_ms_min": 3489060,
+   "delta_ms_max": 3489060,
+   "interval_hours": 0.9666666666666667,
+   "from_utc": "2025-07-27 12:01",
+   "to_utc": "2025-07-27 13:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1753621200023,
+   "to": 1789340400023,
+   "deltas": 9922,
+   "delta_ms_min": 3599779,
+   "delta_ms_max": 3600229,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-27 13:00",
+   "to_utc": "2026-09-13 23:00"
+  }
+ ],
+ "funding-ETH.jsonl": [
+  {
+   "interval_minutes": 480,
+   "from": 1683849600048,
+   "to": 1684800000022,
+   "deltas": 33,
+   "delta_ms_min": 28799336,
+   "delta_ms_max": 28800605,
+   "interval_hours": 8.0,
+   "from_utc": "2023-05-12 00:00",
+   "to_utc": "2023-05-23 00:00"
+  },
+  {
+   "interval_minutes": 504,
+   "from": 1684800000022,
+   "to": 1684830233040,
+   "deltas": 1,
+   "delta_ms_min": 30233018,
+   "delta_ms_max": 30233018,
+   "interval_hours": 8.4,
+   "from_utc": "2023-05-23 00:00",
+   "to_utc": "2023-05-23 08:23"
+  },
+  {
+   "interval_minutes": 456,
+   "from": 1684830233040,
+   "to": 1684857600079,
+   "deltas": 1,
+   "delta_ms_min": 27367039,
+   "delta_ms_max": 27367039,
+   "interval_hours": 7.6,
+   "from_utc": "2023-05-23 08:23",
+   "to_utc": "2023-05-23 16:00"
+  },
+  {
+   "interval_minutes": 480,
+   "from": 1684857600079,
+   "to": 1686182400254,
+   "deltas": 46,
+   "delta_ms_min": 28799617,
+   "delta_ms_max": 28800332,
+   "interval_hours": 8.0,
+   "from_utc": "2023-05-23 16:00",
+   "to_utc": "2023-06-08 00:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1686182400254,
+   "to": 1688324400235,
+   "deltas": 595,
+   "delta_ms_min": 3599025,
+   "delta_ms_max": 3600931,
+   "interval_hours": 1.0,
+   "from_utc": "2023-06-08 00:00",
+   "to_utc": "2023-07-02 19:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1688324400235,
+   "to": 1688331600180,
+   "deltas": 1,
+   "delta_ms_min": 7199945,
+   "delta_ms_max": 7199945,
+   "interval_hours": 2.0,
+   "from_utc": "2023-07-02 19:00",
+   "to_utc": "2023-07-02 21:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1688331600180,
+   "to": 1692817200029,
+   "deltas": 1246,
+   "delta_ms_min": 3594734,
+   "delta_ms_max": 3605298,
+   "interval_hours": 1.0,
+   "from_utc": "2023-07-02 21:00",
+   "to_utc": "2023-08-23 19:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1692817200029,
+   "to": 1692824400190,
+   "deltas": 1,
+   "delta_ms_min": 7200161,
+   "delta_ms_max": 7200161,
+   "interval_hours": 2.0,
+   "from_utc": "2023-08-23 19:00",
+   "to_utc": "2023-08-23 21:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1692824400190,
+   "to": 1695852000020,
+   "deltas": 841,
+   "delta_ms_min": 3597482,
+   "delta_ms_max": 3602196,
+   "interval_hours": 1.0,
+   "from_utc": "2023-08-23 21:00",
+   "to_utc": "2023-09-27 22:00"
+  },
+  {
+   "interval_minutes": 62,
+   "from": 1695852000020,
+   "to": 1695855711280,
+   "deltas": 1,
+   "delta_ms_min": 3711260,
+   "delta_ms_max": 3711260,
+   "interval_hours": 1.0333333333333334,
+   "from_utc": "2023-09-27 22:00",
+   "to_utc": "2023-09-27 23:01"
+  },
+  {
+   "interval_minutes": 58,
+   "from": 1695855711280,
+   "to": 1695859200160,
+   "deltas": 1,
+   "delta_ms_min": 3488880,
+   "delta_ms_max": 3488880,
+   "interval_hours": 0.9666666666666667,
+   "from_utc": "2023-09-27 23:01",
+   "to_utc": "2023-09-28 00:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1695859200160,
+   "to": 1702846800189,
+   "deltas": 1941,
+   "delta_ms_min": 3574694,
+   "delta_ms_max": 3625266,
+   "interval_hours": 1.0,
+   "from_utc": "2023-09-28 00:00",
+   "to_utc": "2023-12-17 21:00"
+  },
+  {
+   "interval_minutes": 64,
+   "from": 1702846800189,
+   "to": 1702850650610,
+   "deltas": 1,
+   "delta_ms_min": 3850421,
+   "delta_ms_max": 3850421,
+   "interval_hours": 1.0666666666666667,
+   "from_utc": "2023-12-17 21:00",
+   "to_utc": "2023-12-17 22:04"
+  },
+  {
+   "interval_minutes": 56,
+   "from": 1702850650610,
+   "to": 1702854000367,
+   "deltas": 1,
+   "delta_ms_min": 3349757,
+   "delta_ms_max": 3349757,
+   "interval_hours": 0.9333333333333333,
+   "from_utc": "2023-12-17 22:04",
+   "to_utc": "2023-12-17 23:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1702854000367,
+   "to": 1723723200001,
+   "deltas": 5797,
+   "delta_ms_min": 3599545,
+   "delta_ms_max": 3600460,
+   "interval_hours": 1.0,
+   "from_utc": "2023-12-17 23:00",
+   "to_utc": "2024-08-15 12:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1723723200001,
+   "to": 1723730400074,
+   "deltas": 1,
+   "delta_ms_min": 7200073,
+   "delta_ms_max": 7200073,
+   "interval_hours": 2.0,
+   "from_utc": "2024-08-15 12:00",
+   "to_utc": "2024-08-15 14:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1723730400074,
+   "to": 1752915600024,
+   "deltas": 8107,
+   "delta_ms_min": 3598808,
+   "delta_ms_max": 3601065,
+   "interval_hours": 1.0,
+   "from_utc": "2024-08-15 14:00",
+   "to_utc": "2025-07-19 09:00"
+  },
+  {
+   "interval_minutes": 75,
+   "from": 1752915600024,
+   "to": 1752920087645,
+   "deltas": 1,
+   "delta_ms_min": 4487621,
+   "delta_ms_max": 4487621,
+   "interval_hours": 1.25,
+   "from_utc": "2025-07-19 09:00",
+   "to_utc": "2025-07-19 10:14"
+  },
+  {
+   "interval_minutes": 45,
+   "from": 1752920087645,
+   "to": 1752922800083,
+   "deltas": 1,
+   "delta_ms_min": 2712438,
+   "delta_ms_max": 2712438,
+   "interval_hours": 0.75,
+   "from_utc": "2025-07-19 10:14",
+   "to_utc": "2025-07-19 11:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1752922800083,
+   "to": 1753614000053,
+   "deltas": 192,
+   "delta_ms_min": 3599900,
+   "delta_ms_max": 3600129,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-19 11:00",
+   "to_utc": "2025-07-27 11:00"
+  },
+  {
+   "interval_minutes": 62,
+   "from": 1753614000053,
+   "to": 1753617710963,
+   "deltas": 1,
+   "delta_ms_min": 3710910,
+   "delta_ms_max": 3710910,
+   "interval_hours": 1.0333333333333334,
+   "from_utc": "2025-07-27 11:00",
+   "to_utc": "2025-07-27 12:01"
+  },
+  {
+   "interval_minutes": 58,
+   "from": 1753617710963,
+   "to": 1753621200023,
+   "deltas": 1,
+   "delta_ms_min": 3489060,
+   "delta_ms_max": 3489060,
+   "interval_hours": 0.9666666666666667,
+   "from_utc": "2025-07-27 12:01",
+   "to_utc": "2025-07-27 13:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1753621200023,
+   "to": 1789340400023,
+   "deltas": 9922,
+   "delta_ms_min": 3599779,
+   "delta_ms_max": 3600229,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-27 13:00",
+   "to_utc": "2026-09-13 23:00"
+  }
+ ],
+ "funding-SOL.jsonl": [
+  {
+   "interval_minutes": 480,
+   "from": 1683849600048,
+   "to": 1684800000022,
+   "deltas": 33,
+   "delta_ms_min": 28799336,
+   "delta_ms_max": 28800605,
+   "interval_hours": 8.0,
+   "from_utc": "2023-05-12 00:00",
+   "to_utc": "2023-05-23 00:00"
+  },
+  {
+   "interval_minutes": 504,
+   "from": 1684800000022,
+   "to": 1684830233040,
+   "deltas": 1,
+   "delta_ms_min": 30233018,
+   "delta_ms_max": 30233018,
+   "interval_hours": 8.4,
+   "from_utc": "2023-05-23 00:00",
+   "to_utc": "2023-05-23 08:23"
+  },
+  {
+   "interval_minutes": 456,
+   "from": 1684830233040,
+   "to": 1684857600079,
+   "deltas": 1,
+   "delta_ms_min": 27367039,
+   "delta_ms_max": 27367039,
+   "interval_hours": 7.6,
+   "from_utc": "2023-05-23 08:23",
+   "to_utc": "2023-05-23 16:00"
+  },
+  {
+   "interval_minutes": 480,
+   "from": 1684857600079,
+   "to": 1686182400254,
+   "deltas": 46,
+   "delta_ms_min": 28799617,
+   "delta_ms_max": 28800332,
+   "interval_hours": 8.0,
+   "from_utc": "2023-05-23 16:00",
+   "to_utc": "2023-06-08 00:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1686182400254,
+   "to": 1688324400235,
+   "deltas": 595,
+   "delta_ms_min": 3599025,
+   "delta_ms_max": 3600931,
+   "interval_hours": 1.0,
+   "from_utc": "2023-06-08 00:00",
+   "to_utc": "2023-07-02 19:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1688324400235,
+   "to": 1688331600180,
+   "deltas": 1,
+   "delta_ms_min": 7199945,
+   "delta_ms_max": 7199945,
+   "interval_hours": 2.0,
+   "from_utc": "2023-07-02 19:00",
+   "to_utc": "2023-07-02 21:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1688331600180,
+   "to": 1692817200029,
+   "deltas": 1246,
+   "delta_ms_min": 3594734,
+   "delta_ms_max": 3605298,
+   "interval_hours": 1.0,
+   "from_utc": "2023-07-02 21:00",
+   "to_utc": "2023-08-23 19:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1692817200029,
+   "to": 1692824400190,
+   "deltas": 1,
+   "delta_ms_min": 7200161,
+   "delta_ms_max": 7200161,
+   "interval_hours": 2.0,
+   "from_utc": "2023-08-23 19:00",
+   "to_utc": "2023-08-23 21:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1692824400190,
+   "to": 1695852000020,
+   "deltas": 841,
+   "delta_ms_min": 3597482,
+   "delta_ms_max": 3602196,
+   "interval_hours": 1.0,
+   "from_utc": "2023-08-23 21:00",
+   "to_utc": "2023-09-27 22:00"
+  },
+  {
+   "interval_minutes": 62,
+   "from": 1695852000020,
+   "to": 1695855711280,
+   "deltas": 1,
+   "delta_ms_min": 3711260,
+   "delta_ms_max": 3711260,
+   "interval_hours": 1.0333333333333334,
+   "from_utc": "2023-09-27 22:00",
+   "to_utc": "2023-09-27 23:01"
+  },
+  {
+   "interval_minutes": 58,
+   "from": 1695855711280,
+   "to": 1695859200160,
+   "deltas": 1,
+   "delta_ms_min": 3488880,
+   "delta_ms_max": 3488880,
+   "interval_hours": 0.9666666666666667,
+   "from_utc": "2023-09-27 23:01",
+   "to_utc": "2023-09-28 00:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1695859200160,
+   "to": 1702846800189,
+   "deltas": 1941,
+   "delta_ms_min": 3574694,
+   "delta_ms_max": 3625266,
+   "interval_hours": 1.0,
+   "from_utc": "2023-09-28 00:00",
+   "to_utc": "2023-12-17 21:00"
+  },
+  {
+   "interval_minutes": 64,
+   "from": 1702846800189,
+   "to": 1702850650610,
+   "deltas": 1,
+   "delta_ms_min": 3850421,
+   "delta_ms_max": 3850421,
+   "interval_hours": 1.0666666666666667,
+   "from_utc": "2023-12-17 21:00",
+   "to_utc": "2023-12-17 22:04"
+  },
+  {
+   "interval_minutes": 56,
+   "from": 1702850650610,
+   "to": 1702854000367,
+   "deltas": 1,
+   "delta_ms_min": 3349757,
+   "delta_ms_max": 3349757,
+   "interval_hours": 0.9333333333333333,
+   "from_utc": "2023-12-17 22:04",
+   "to_utc": "2023-12-17 23:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1702854000367,
+   "to": 1723723200001,
+   "deltas": 5797,
+   "delta_ms_min": 3599545,
+   "delta_ms_max": 3600460,
+   "interval_hours": 1.0,
+   "from_utc": "2023-12-17 23:00",
+   "to_utc": "2024-08-15 12:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1723723200001,
+   "to": 1723730400074,
+   "deltas": 1,
+   "delta_ms_min": 7200073,
+   "delta_ms_max": 7200073,
+   "interval_hours": 2.0,
+   "from_utc": "2024-08-15 12:00",
+   "to_utc": "2024-08-15 14:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1723730400074,
+   "to": 1752915600024,
+   "deltas": 8107,
+   "delta_ms_min": 3598808,
+   "delta_ms_max": 3601065,
+   "interval_hours": 1.0,
+   "from_utc": "2024-08-15 14:00",
+   "to_utc": "2025-07-19 09:00"
+  },
+  {
+   "interval_minutes": 75,
+   "from": 1752915600024,
+   "to": 1752920087645,
+   "deltas": 1,
+   "delta_ms_min": 4487621,
+   "delta_ms_max": 4487621,
+   "interval_hours": 1.25,
+   "from_utc": "2025-07-19 09:00",
+   "to_utc": "2025-07-19 10:14"
+  },
+  {
+   "interval_minutes": 45,
+   "from": 1752920087645,
+   "to": 1752922800083,
+   "deltas": 1,
+   "delta_ms_min": 2712438,
+   "delta_ms_max": 2712438,
+   "interval_hours": 0.75,
+   "from_utc": "2025-07-19 10:14",
+   "to_utc": "2025-07-19 11:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1752922800083,
+   "to": 1753614000053,
+   "deltas": 192,
+   "delta_ms_min": 3599900,
+   "delta_ms_max": 3600129,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-19 11:00",
+   "to_utc": "2025-07-27 11:00"
+  },
+  {
+   "interval_minutes": 62,
+   "from": 1753614000053,
+   "to": 1753617710963,
+   "deltas": 1,
+   "delta_ms_min": 3710910,
+   "delta_ms_max": 3710910,
+   "interval_hours": 1.0333333333333334,
+   "from_utc": "2025-07-27 11:00",
+   "to_utc": "2025-07-27 12:01"
+  },
+  {
+   "interval_minutes": 58,
+   "from": 1753617710963,
+   "to": 1753621200023,
+   "deltas": 1,
+   "delta_ms_min": 3489060,
+   "delta_ms_max": 3489060,
+   "interval_hours": 0.9666666666666667,
+   "from_utc": "2025-07-27 12:01",
+   "to_utc": "2025-07-27 13:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1753621200023,
+   "to": 1789340400023,
+   "deltas": 9922,
+   "delta_ms_min": 3599779,
+   "delta_ms_max": 3600229,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-27 13:00",
+   "to_utc": "2026-09-13 23:00"
+  }
+ ],
+ "funding-HYPE.jsonl": [
+  {
+   "interval_minutes": 60,
+   "from": 1733392800004,
+   "to": 1752915600024,
+   "deltas": 5423,
+   "delta_ms_min": 3598808,
+   "delta_ms_max": 3601065,
+   "interval_hours": 1.0,
+   "from_utc": "2024-12-05 10:00",
+   "to_utc": "2025-07-19 09:00"
+  },
+  {
+   "interval_minutes": 75,
+   "from": 1752915600024,
+   "to": 1752920087645,
+   "deltas": 1,
+   "delta_ms_min": 4487621,
+   "delta_ms_max": 4487621,
+   "interval_hours": 1.25,
+   "from_utc": "2025-07-19 09:00",
+   "to_utc": "2025-07-19 10:14"
+  },
+  {
+   "interval_minutes": 45,
+   "from": 1752920087645,
+   "to": 1752922800083,
+   "deltas": 1,
+   "delta_ms_min": 2712438,
+   "delta_ms_max": 2712438,
+   "interval_hours": 0.75,
+   "from_utc": "2025-07-19 10:14",
+   "to_utc": "2025-07-19 11:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1752922800083,
+   "to": 1753614000053,
+   "deltas": 192,
+   "delta_ms_min": 3599900,
+   "delta_ms_max": 3600129,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-19 11:00",
+   "to_utc": "2025-07-27 11:00"
+  },
+  {
+   "interval_minutes": 62,
+   "from": 1753614000053,
+   "to": 1753617710963,
+   "deltas": 1,
+   "delta_ms_min": 3710910,
+   "delta_ms_max": 3710910,
+   "interval_hours": 1.0333333333333334,
+   "from_utc": "2025-07-27 11:00",
+   "to_utc": "2025-07-27 12:01"
+  },
+  {
+   "interval_minutes": 58,
+   "from": 1753617710963,
+   "to": 1753621200023,
+   "deltas": 1,
+   "delta_ms_min": 3489060,
+   "delta_ms_max": 3489060,
+   "interval_hours": 0.9666666666666667,
+   "from_utc": "2025-07-27 12:01",
+   "to_utc": "2025-07-27 13:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1753621200023,
+   "to": 1789340400023,
+   "deltas": 9922,
+   "delta_ms_min": 3599779,
+   "delta_ms_max": 3600229,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-27 13:00",
+   "to_utc": "2026-09-13 23:00"
+  }
+ ],
+ "funding-PURR.jsonl": [
+  {
+   "interval_minutes": 60,
+   "from": 1730714400074,
+   "to": 1752915600024,
+   "deltas": 6167,
+   "delta_ms_min": 3598808,
+   "delta_ms_max": 3601065,
+   "interval_hours": 1.0,
+   "from_utc": "2024-11-04 10:00",
+   "to_utc": "2025-07-19 09:00"
+  },
+  {
+   "interval_minutes": 75,
+   "from": 1752915600024,
+   "to": 1752920087645,
+   "deltas": 1,
+   "delta_ms_min": 4487621,
+   "delta_ms_max": 4487621,
+   "interval_hours": 1.25,
+   "from_utc": "2025-07-19 09:00",
+   "to_utc": "2025-07-19 10:14"
+  },
+  {
+   "interval_minutes": 45,
+   "from": 1752920087645,
+   "to": 1752922800083,
+   "deltas": 1,
+   "delta_ms_min": 2712438,
+   "delta_ms_max": 2712438,
+   "interval_hours": 0.75,
+   "from_utc": "2025-07-19 10:14",
+   "to_utc": "2025-07-19 11:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1752922800083,
+   "to": 1753614000053,
+   "deltas": 192,
+   "delta_ms_min": 3599900,
+   "delta_ms_max": 3600129,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-19 11:00",
+   "to_utc": "2025-07-27 11:00"
+  },
+  {
+   "interval_minutes": 62,
+   "from": 1753614000053,
+   "to": 1753617710963,
+   "deltas": 1,
+   "delta_ms_min": 3710910,
+   "delta_ms_max": 3710910,
+   "interval_hours": 1.0333333333333334,
+   "from_utc": "2025-07-27 11:00",
+   "to_utc": "2025-07-27 12:01"
+  },
+  {
+   "interval_minutes": 58,
+   "from": 1753617710963,
+   "to": 1753621200023,
+   "deltas": 1,
+   "delta_ms_min": 3489060,
+   "delta_ms_max": 3489060,
+   "interval_hours": 0.9666666666666667,
+   "from_utc": "2025-07-27 12:01",
+   "to_utc": "2025-07-27 13:00"
+  },
+  {
+   "interval_minutes": 60,
+   "from": 1753621200023,
+   "to": 1789340400023,
+   "deltas": 9922,
+   "delta_ms_min": 3599779,
+   "delta_ms_max": 3600229,
+   "interval_hours": 1.0,
+   "from_utc": "2025-07-27 13:00",
+   "to_utc": "2026-09-13 23:00"
+  }
+ ],
+ "binance-funding-BTCUSDT.jsonl": [
+  {
+   "interval_minutes": 480,
+   "from": 1568102400000,
+   "to": 1789344000000,
+   "deltas": 7682,
+   "delta_ms_min": 28799955,
+   "delta_ms_max": 28800047,
+   "interval_hours": 8.0,
+   "from_utc": "2019-09-10 08:00",
+   "to_utc": "2026-09-14 00:00"
+  }
+ ],
+ "binance-funding-ETHUSDT.jsonl": [
+  {
+   "interval_minutes": 480,
+   "from": 1574841600000,
+   "to": 1789344000000,
+   "deltas": 7448,
+   "delta_ms_min": 28799955,
+   "delta_ms_max": 28800047,
+   "interval_hours": 8.0,
+   "from_utc": "2019-11-27 08:00",
+   "to_utc": "2026-09-14 00:00"
+  }
+ ],
+ "binance-funding-SOLUSDT.jsonl": [
+  {
+   "interval_minutes": 480,
+   "from": 1600012800004,
+   "to": 1668009600004,
+   "deltas": 2361,
+   "delta_ms_min": 28799955,
+   "delta_ms_max": 28800047,
+   "interval_hours": 8.0,
+   "from_utc": "2020-09-13 16:00",
+   "to_utc": "2022-11-09 16:00"
+  },
+  {
+   "interval_minutes": 240,
+   "from": 1668009600004,
+   "to": 1668052800011,
+   "deltas": 3,
+   "delta_ms_min": 14399988,
+   "delta_ms_max": 14400014,
+   "interval_hours": 4.0,
+   "from_utc": "2022-11-09 16:00",
+   "to_utc": "2022-11-10 04:00"
+  },
+  {
+   "interval_minutes": 120,
+   "from": 1668052800011,
+   "to": 1668758400016,
+   "deltas": 98,
+   "delta_ms_min": 7199973,
+   "delta_ms_max": 7200027,
+   "interval_hours": 2.0,
+   "from_utc": "2022-11-10 04:00",
+   "to_utc": "2022-11-18 08:00"
+  },
+  {
+   "interval_minutes": 480,
+   "from": 1668758400016,
+   "to": 1789344000000,
+   "deltas": 4187,
+   "delta_ms_min": 28799972,
+   "delta_ms_max": 28800026,
+   "interval_hours": 8.0,
+   "from_utc": "2022-11-18 08:00",
+   "to_utc": "2026-09-14 00:00"
+  }
+ ],
+ "binance-funding-HYPEUSDT.jsonl": [
+  {
+   "interval_minutes": 240,
+   "from": 1748606400006,
+   "to": 1782259200005,
+   "deltas": 2337,
+   "delta_ms_min": 14399976,
+   "delta_ms_max": 14400021,
+   "interval_hours": 4.0,
+   "from_utc": "2025-05-30 12:00",
+   "to_utc": "2026-06-24 00:00"
+  },
+  {
+   "interval_minutes": 480,
+   "from": 1782259200005,
+   "to": 1782288000005,
+   "deltas": 1,
+   "delta_ms_min": 28800000,
+   "delta_ms_max": 28800000,
+   "interval_hours": 8.0,
+   "from_utc": "2026-06-24 00:00",
+   "to_utc": "2026-06-24 08:00"
+  },
+  {
+   "interval_minutes": 240,
+   "from": 1782288000005,
+   "to": 1789344000000,
+   "deltas": 490,
+   "delta_ms_min": 14399982,
+   "delta_ms_max": 14400026,
+   "interval_hours": 4.0,
+   "from_utc": "2026-06-24 08:00",
+   "to_utc": "2026-09-14 00:00"
+  }
+ ]
+}

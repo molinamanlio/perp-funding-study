@@ -1,0 +1,54 @@
+{
+ "started_utc": "2026-09-14T22:01:28.267475+00:00",
+ "end_param_ms": 1789344000000,
+ "hl_start_ms": 1672531200000,
+ "binance_start_ms": 1,
+ "series": {
+  "funding-BTC.jsonl": {
+   "records": 28734,
+   "first": 1683849600048,
+   "last": 1789340400023
+  },
+  "funding-ETH.jsonl": {
+   "records": 28734,
+   "first": 1683849600048,
+   "last": 1789340400023
+  },
+  "funding-SOL.jsonl": {
+   "records": 28734,
+   "first": 1683849600048,
+   "last": 1789340400023
+  },
+  "funding-HYPE.jsonl": {
+   "records": 15542,
+   "first": 1733392800004,
+   "last": 1789340400023
+  },
+  "funding-PURR.jsonl": {
+   "records": 16286,
+   "first": 1730714400074,
+   "last": 1789340400023
+  },
+  "binance-funding-BTCUSDT.jsonl": {
+   "records": 7683,
+   "first": 1568102400000,
+   "last": 1789344000000
+  },
+  "binance-funding-ETHUSDT.jsonl": {
+   "records": 7449,
+   "first": 1574841600000,
+   "last": 1789344000000
+  },
+  "binance-funding-SOLUSDT.jsonl": {
+   "records": 6650,
+   "first": 1600012800004,
+   "last": 1789344000000
+  },
+  "binance-funding-HYPEUSDT.jsonl": {
+   "records": 2829,
+   "first": 1748606400006,
+   "last": 1789344000000
+  }
+ },
+ "finished_utc": "2026-09-14T22:12:20.164616+00:00"
+}
