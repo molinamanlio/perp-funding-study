@@ -1,0 +1,2619 @@
+{
+ "generated_utc": "2026-09-14T22:16:23+00:00",
+ "base_per_hour": "0.0000125",
+ "base_ann_simple_pct": 10.95,
+ "base_ann_compound_pct": 11.571396279167324,
+ "inventory": {
+  "HL:BTC": {
+   "venue": "HL",
+   "market": "BTC",
+   "records": 28734,
+   "first": "2023-05-12 00:00",
+   "last": "2026-09-13 23:00",
+   "hours_covered": 29308.0,
+   "years": [
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 8,
+     "from": 1683849600048,
+     "to": 1686182400254,
+     "deltas": 81,
+     "treated_as": "cadence run",
+     "from_utc": "2023-05-12 00:00",
+     "to_utc": "2023-06-08 00:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1686182400254,
+     "to": 1688324400235,
+     "deltas": 595,
+     "treated_as": "cadence run",
+     "from_utc": "2023-06-08 00:00",
+     "to_utc": "2023-07-02 19:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1688324400235,
+     "to": 1688331600180,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2023-07-02 19:00",
+     "to_utc": "2023-07-02 21:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1688331600180,
+     "to": 1692817200029,
+     "deltas": 1246,
+     "treated_as": "cadence run",
+     "from_utc": "2023-07-02 21:00",
+     "to_utc": "2023-08-23 19:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1692817200029,
+     "to": 1692824400190,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2023-08-23 19:00",
+     "to_utc": "2023-08-23 21:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1692824400190,
+     "to": 1723723200001,
+     "deltas": 8583,
+     "treated_as": "cadence run",
+     "from_utc": "2023-08-23 21:00",
+     "to_utc": "2024-08-15 12:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1723723200001,
+     "to": 1723730400074,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2024-08-15 12:00",
+     "to_utc": "2024-08-15 14:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1723730400074,
+     "to": 1789340400023,
+     "deltas": 18225,
+     "treated_as": "cadence run",
+     "from_utc": "2024-08-15 14:00",
+     "to_utc": "2026-09-13 23:00"
+    }
+   ],
+   "missing": [
+    "2023-07-02 20:00",
+    "2023-08-23 20:00",
+    "2024-08-15 13:00"
+   ],
+   "max_jitter_ms": 25306,
+   "delayed": [
+    {
+     "from": "2023-05-23 00:00",
+     "to_exact": "2023-05-23 08:23:53",
+     "delta_min": 503.8836333333333
+    },
+    {
+     "from": "2023-05-23 08:23",
+     "to_exact": "2023-05-23 16:00:00",
+     "delta_min": 456.1173166666667
+    },
+    {
+     "from": "2023-09-27 22:00",
+     "to_exact": "2023-09-27 23:01:51",
+     "delta_min": 61.85433333333334
+    },
+    {
+     "from": "2023-09-27 23:01",
+     "to_exact": "2023-09-28 00:00:00",
+     "delta_min": 58.148
+    },
+    {
+     "from": "2023-12-17 21:00",
+     "to_exact": "2023-12-17 22:04:10",
+     "delta_min": 64.17368333333333
+    },
+    {
+     "from": "2023-12-17 22:04",
+     "to_exact": "2023-12-17 23:00:00",
+     "delta_min": 55.829283333333336
+    },
+    {
+     "from": "2025-07-19 09:00",
+     "to_exact": "2025-07-19 10:14:47",
+     "delta_min": 74.79368333333333
+    },
+    {
+     "from": "2025-07-19 10:14",
+     "to_exact": "2025-07-19 11:00:00",
+     "delta_min": 45.2073
+    },
+    {
+     "from": "2025-07-27 11:00",
+     "to_exact": "2025-07-27 12:01:50",
+     "delta_min": 61.8485
+    },
+    {
+     "from": "2025-07-27 12:01",
+     "to_exact": "2025-07-27 13:00:00",
+     "delta_min": 58.151
+    }
+   ]
+  },
+  "HL:ETH": {
+   "venue": "HL",
+   "market": "ETH",
+   "records": 28734,
+   "first": "2023-05-12 00:00",
+   "last": "2026-09-13 23:00",
+   "hours_covered": 29308.0,
+   "years": [
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 8,
+     "from": 1683849600048,
+     "to": 1686182400254,
+     "deltas": 81,
+     "treated_as": "cadence run",
+     "from_utc": "2023-05-12 00:00",
+     "to_utc": "2023-06-08 00:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1686182400254,
+     "to": 1688324400235,
+     "deltas": 595,
+     "treated_as": "cadence run",
+     "from_utc": "2023-06-08 00:00",
+     "to_utc": "2023-07-02 19:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1688324400235,
+     "to": 1688331600180,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2023-07-02 19:00",
+     "to_utc": "2023-07-02 21:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1688331600180,
+     "to": 1692817200029,
+     "deltas": 1246,
+     "treated_as": "cadence run",
+     "from_utc": "2023-07-02 21:00",
+     "to_utc": "2023-08-23 19:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1692817200029,
+     "to": 1692824400190,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2023-08-23 19:00",
+     "to_utc": "2023-08-23 21:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1692824400190,
+     "to": 1723723200001,
+     "deltas": 8583,
+     "treated_as": "cadence run",
+     "from_utc": "2023-08-23 21:00",
+     "to_utc": "2024-08-15 12:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1723723200001,
+     "to": 1723730400074,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2024-08-15 12:00",
+     "to_utc": "2024-08-15 14:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1723730400074,
+     "to": 1789340400023,
+     "deltas": 18225,
+     "treated_as": "cadence run",
+     "from_utc": "2024-08-15 14:00",
+     "to_utc": "2026-09-13 23:00"
+    }
+   ],
+   "missing": [
+    "2023-07-02 20:00",
+    "2023-08-23 20:00",
+    "2024-08-15 13:00"
+   ],
+   "max_jitter_ms": 25306,
+   "delayed": [
+    {
+     "from": "2023-05-23 00:00",
+     "to_exact": "2023-05-23 08:23:53",
+     "delta_min": 503.8836333333333
+    },
+    {
+     "from": "2023-05-23 08:23",
+     "to_exact": "2023-05-23 16:00:00",
+     "delta_min": 456.1173166666667
+    },
+    {
+     "from": "2023-09-27 22:00",
+     "to_exact": "2023-09-27 23:01:51",
+     "delta_min": 61.85433333333334
+    },
+    {
+     "from": "2023-09-27 23:01",
+     "to_exact": "2023-09-28 00:00:00",
+     "delta_min": 58.148
+    },
+    {
+     "from": "2023-12-17 21:00",
+     "to_exact": "2023-12-17 22:04:10",
+     "delta_min": 64.17368333333333
+    },
+    {
+     "from": "2023-12-17 22:04",
+     "to_exact": "2023-12-17 23:00:00",
+     "delta_min": 55.829283333333336
+    },
+    {
+     "from": "2025-07-19 09:00",
+     "to_exact": "2025-07-19 10:14:47",
+     "delta_min": 74.79368333333333
+    },
+    {
+     "from": "2025-07-19 10:14",
+     "to_exact": "2025-07-19 11:00:00",
+     "delta_min": 45.2073
+    },
+    {
+     "from": "2025-07-27 11:00",
+     "to_exact": "2025-07-27 12:01:50",
+     "delta_min": 61.8485
+    },
+    {
+     "from": "2025-07-27 12:01",
+     "to_exact": "2025-07-27 13:00:00",
+     "delta_min": 58.151
+    }
+   ]
+  },
+  "HL:SOL": {
+   "venue": "HL",
+   "market": "SOL",
+   "records": 28734,
+   "first": "2023-05-12 00:00",
+   "last": "2026-09-13 23:00",
+   "hours_covered": 29308.0,
+   "years": [
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 8,
+     "from": 1683849600048,
+     "to": 1686182400254,
+     "deltas": 81,
+     "treated_as": "cadence run",
+     "from_utc": "2023-05-12 00:00",
+     "to_utc": "2023-06-08 00:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1686182400254,
+     "to": 1688324400235,
+     "deltas": 595,
+     "treated_as": "cadence run",
+     "from_utc": "2023-06-08 00:00",
+     "to_utc": "2023-07-02 19:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1688324400235,
+     "to": 1688331600180,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2023-07-02 19:00",
+     "to_utc": "2023-07-02 21:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1688331600180,
+     "to": 1692817200029,
+     "deltas": 1246,
+     "treated_as": "cadence run",
+     "from_utc": "2023-07-02 21:00",
+     "to_utc": "2023-08-23 19:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1692817200029,
+     "to": 1692824400190,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2023-08-23 19:00",
+     "to_utc": "2023-08-23 21:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1692824400190,
+     "to": 1723723200001,
+     "deltas": 8583,
+     "treated_as": "cadence run",
+     "from_utc": "2023-08-23 21:00",
+     "to_utc": "2024-08-15 12:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1723723200001,
+     "to": 1723730400074,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 1,
+     "from_utc": "2024-08-15 12:00",
+     "to_utc": "2024-08-15 14:00"
+    },
+    {
+     "interval_h": 1,
+     "from": 1723730400074,
+     "to": 1789340400023,
+     "deltas": 18225,
+     "treated_as": "cadence run",
+     "from_utc": "2024-08-15 14:00",
+     "to_utc": "2026-09-13 23:00"
+    }
+   ],
+   "missing": [
+    "2023-07-02 20:00",
+    "2023-08-23 20:00",
+    "2024-08-15 13:00"
+   ],
+   "max_jitter_ms": 25306,
+   "delayed": [
+    {
+     "from": "2023-05-23 00:00",
+     "to_exact": "2023-05-23 08:23:53",
+     "delta_min": 503.8836333333333
+    },
+    {
+     "from": "2023-05-23 08:23",
+     "to_exact": "2023-05-23 16:00:00",
+     "delta_min": 456.1173166666667
+    },
+    {
+     "from": "2023-09-27 22:00",
+     "to_exact": "2023-09-27 23:01:51",
+     "delta_min": 61.85433333333334
+    },
+    {
+     "from": "2023-09-27 23:01",
+     "to_exact": "2023-09-28 00:00:00",
+     "delta_min": 58.148
+    },
+    {
+     "from": "2023-12-17 21:00",
+     "to_exact": "2023-12-17 22:04:10",
+     "delta_min": 64.17368333333333
+    },
+    {
+     "from": "2023-12-17 22:04",
+     "to_exact": "2023-12-17 23:00:00",
+     "delta_min": 55.829283333333336
+    },
+    {
+     "from": "2025-07-19 09:00",
+     "to_exact": "2025-07-19 10:14:47",
+     "delta_min": 74.79368333333333
+    },
+    {
+     "from": "2025-07-19 10:14",
+     "to_exact": "2025-07-19 11:00:00",
+     "delta_min": 45.2073
+    },
+    {
+     "from": "2025-07-27 11:00",
+     "to_exact": "2025-07-27 12:01:50",
+     "delta_min": 61.8485
+    },
+    {
+     "from": "2025-07-27 12:01",
+     "to_exact": "2025-07-27 13:00:00",
+     "delta_min": 58.151
+    }
+   ]
+  },
+  "HL:HYPE": {
+   "venue": "HL",
+   "market": "HYPE",
+   "records": 15542,
+   "first": "2024-12-05 10:00",
+   "last": "2026-09-13 23:00",
+   "hours_covered": 15542.0,
+   "years": [
+    2024,
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 1,
+     "from": 1733392800004,
+     "to": 1789340400023,
+     "deltas": 15541,
+     "treated_as": "cadence run",
+     "from_utc": "2024-12-05 10:00",
+     "to_utc": "2026-09-13 23:00"
+    }
+   ],
+   "missing": [],
+   "max_jitter_ms": 1192,
+   "delayed": [
+    {
+     "from": "2025-07-19 09:00",
+     "to_exact": "2025-07-19 10:14:47",
+     "delta_min": 74.79368333333333
+    },
+    {
+     "from": "2025-07-19 10:14",
+     "to_exact": "2025-07-19 11:00:00",
+     "delta_min": 45.2073
+    },
+    {
+     "from": "2025-07-27 11:00",
+     "to_exact": "2025-07-27 12:01:50",
+     "delta_min": 61.8485
+    },
+    {
+     "from": "2025-07-27 12:01",
+     "to_exact": "2025-07-27 13:00:00",
+     "delta_min": 58.151
+    }
+   ]
+  },
+  "HL:PURR": {
+   "venue": "HL",
+   "market": "PURR",
+   "records": 16286,
+   "first": "2024-11-04 10:00",
+   "last": "2026-09-13 23:00",
+   "hours_covered": 16286.0,
+   "years": [
+    2024,
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 1,
+     "from": 1730714400074,
+     "to": 1789340400023,
+     "deltas": 16285,
+     "treated_as": "cadence run",
+     "from_utc": "2024-11-04 10:00",
+     "to_utc": "2026-09-13 23:00"
+    }
+   ],
+   "missing": [],
+   "max_jitter_ms": 1192,
+   "delayed": [
+    {
+     "from": "2025-07-19 09:00",
+     "to_exact": "2025-07-19 10:14:47",
+     "delta_min": 74.79368333333333
+    },
+    {
+     "from": "2025-07-19 10:14",
+     "to_exact": "2025-07-19 11:00:00",
+     "delta_min": 45.2073
+    },
+    {
+     "from": "2025-07-27 11:00",
+     "to_exact": "2025-07-27 12:01:50",
+     "delta_min": 61.8485
+    },
+    {
+     "from": "2025-07-27 12:01",
+     "to_exact": "2025-07-27 13:00:00",
+     "delta_min": 58.151
+    }
+   ]
+  },
+  "BN:BTCUSDT": {
+   "venue": "BN",
+   "market": "BTCUSDT",
+   "records": 7683,
+   "first": "2019-09-10 08:00",
+   "last": "2026-09-14 00:00",
+   "hours_covered": 61464.0,
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 8,
+     "from": 1568102400000,
+     "to": 1789344000000,
+     "deltas": 7682,
+     "treated_as": "cadence run",
+     "from_utc": "2019-09-10 08:00",
+     "to_utc": "2026-09-14 00:00"
+    }
+   ],
+   "missing": [],
+   "max_jitter_ms": 47,
+   "delayed": []
+  },
+  "BN:ETHUSDT": {
+   "venue": "BN",
+   "market": "ETHUSDT",
+   "records": 7449,
+   "first": "2019-11-27 08:00",
+   "last": "2026-09-14 00:00",
+   "hours_covered": 59592.0,
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 8,
+     "from": 1574841600000,
+     "to": 1789344000000,
+     "deltas": 7448,
+     "treated_as": "cadence run",
+     "from_utc": "2019-11-27 08:00",
+     "to_utc": "2026-09-14 00:00"
+    }
+   ],
+   "missing": [],
+   "max_jitter_ms": 47,
+   "delayed": []
+  },
+  "BN:SOLUSDT": {
+   "venue": "BN",
+   "market": "SOLUSDT",
+   "records": 6650,
+   "first": "2020-09-13 16:00",
+   "last": "2026-09-14 00:00",
+   "hours_covered": 52600.0,
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 8,
+     "from": 1600012800004,
+     "to": 1668009600004,
+     "deltas": 2361,
+     "treated_as": "cadence run",
+     "from_utc": "2020-09-13 16:00",
+     "to_utc": "2022-11-09 16:00"
+    },
+    {
+     "interval_h": 4,
+     "from": 1668009600004,
+     "to": 1668052800011,
+     "deltas": 3,
+     "treated_as": "cadence run",
+     "from_utc": "2022-11-09 16:00",
+     "to_utc": "2022-11-10 04:00"
+    },
+    {
+     "interval_h": 2,
+     "from": 1668052800011,
+     "to": 1668758400016,
+     "deltas": 98,
+     "treated_as": "cadence run",
+     "from_utc": "2022-11-10 04:00",
+     "to_utc": "2022-11-18 08:00"
+    },
+    {
+     "interval_h": 8,
+     "from": 1668758400016,
+     "to": 1789344000000,
+     "deltas": 4187,
+     "treated_as": "cadence run",
+     "from_utc": "2022-11-18 08:00",
+     "to_utc": "2026-09-14 00:00"
+    }
+   ],
+   "missing": [],
+   "max_jitter_ms": 47,
+   "delayed": []
+  },
+  "BN:HYPEUSDT": {
+   "venue": "BN",
+   "market": "HYPEUSDT",
+   "records": 2829,
+   "first": "2025-05-30 12:00",
+   "last": "2026-09-14 00:00",
+   "hours_covered": 11316.0,
+   "years": [
+    2025,
+    2026
+   ],
+   "runs": [
+    {
+     "interval_h": 4,
+     "from": 1748606400006,
+     "to": 1782259200005,
+     "deltas": 2337,
+     "treated_as": "cadence run",
+     "from_utc": "2025-05-30 12:00",
+     "to_utc": "2026-06-24 00:00"
+    },
+    {
+     "interval_h": 8,
+     "from": 1782259200005,
+     "to": 1782288000005,
+     "deltas": 1,
+     "treated_as": "omitted settlement",
+     "cadence_h": 4,
+     "from_utc": "2026-06-24 00:00",
+     "to_utc": "2026-06-24 08:00"
+    },
+    {
+     "interval_h": 4,
+     "from": 1782288000005,
+     "to": 1789344000000,
+     "deltas": 490,
+     "treated_as": "cadence run",
+     "from_utc": "2026-06-24 08:00",
+     "to_utc": "2026-09-14 00:00"
+    }
+   ],
+   "missing": [
+    "2026-06-24 04:00"
+   ],
+   "max_jitter_ms": 26,
+   "delayed": []
+  }
+ },
+ "by_year": {
+  "HL": {
+   "BTC": {
+    "2023": {
+     "records": 5047,
+     "hours": 5621.0,
+     "days": 234.20833333333334,
+     "partial": true,
+     "omitted": 2,
+     "days_in_year": 365,
+     "first": "2023-05-12 00:00",
+     "last": "2023-12-31 23:00",
+     "share_above_pct": 32.12951432129514,
+     "share_at_pct": 30.19035758761786,
+     "share_below_pct": 37.68012809108699,
+     "n_above": 1806,
+     "n_at": 1578,
+     "n_below": 1663,
+     "mean_ann_pct": 13.526358623376625,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -19.197490724999998,
+     "q25_ann_pct": 1.9217688,
+     "q75_ann_pct": 25.755670200000004,
+     "q95_ann_pct": 68.18379288,
+     "min_ann_pct": -145.0439628,
+     "max_ann_pct": 396.96632040000003
+    },
+    "2024": {
+     "records": 8783,
+     "hours": 8783.0,
+     "days": 365.9583333333333,
+     "partial": false,
+     "omitted": 1,
+     "days_in_year": 366,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 23:00",
+     "share_above_pct": 37.33348514175111,
+     "share_at_pct": 55.33416827963111,
+     "share_below_pct": 7.332346578617784,
+     "n_above": 3279,
+     "n_at": 4860,
+     "n_below": 644,
+     "mean_ann_pct": 24.139659645087097,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 4.014804360000001,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 27.610337399999995,
+     "q95_ann_pct": 84.87433475999998,
+     "min_ann_pct": -80.42389560000001,
+     "max_ann_pct": 523.9205328
+    },
+    "2025": {
+     "records": 8760,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 23:00",
+     "share_above_pct": 10.19406392694064,
+     "share_at_pct": 66.08447488584476,
+     "share_below_pct": 23.72146118721461,
+     "n_above": 893,
+     "n_at": 5789,
+     "n_below": 2078,
+     "mean_ann_pct": 10.63423451,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -5.414858219999999,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 26.82927389999988,
+     "min_ann_pct": -79.71162000000001,
+     "max_ann_pct": 297.18352560000005
+    },
+    "2026": {
+     "records": 6144,
+     "hours": 6144.0,
+     "days": 256.0,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 23:00",
+     "share_above_pct": 0.7161458333333334,
+     "share_at_pct": 41.259765625,
+     "share_below_pct": 58.024088541666664,
+     "n_above": 44,
+     "n_at": 2535,
+     "n_below": 3565,
+     "mean_ann_pct": 4.733901005859376,
+     "median_ann_pct": 7.774368600000001,
+     "q05_ann_pct": -11.24081886,
+     "q25_ann_pct": 0.4425333,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -60.7819608,
+     "max_ann_pct": 49.4485356
+    }
+   },
+   "ETH": {
+    "2023": {
+     "records": 5047,
+     "hours": 5621.0,
+     "days": 234.20833333333334,
+     "partial": true,
+     "omitted": 2,
+     "days_in_year": 365,
+     "first": "2023-05-12 00:00",
+     "last": "2023-12-31 23:00",
+     "share_above_pct": 37.60896637608966,
+     "share_at_pct": 33.7840241949831,
+     "share_below_pct": 28.60700942892724,
+     "n_above": 2072,
+     "n_at": 1668,
+     "n_below": 1307,
+     "mean_ann_pct": 20.08723930909091,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -10.06658028,
+     "q25_ann_pct": 10.1661552,
+     "q75_ann_pct": 35.6298108,
+     "q95_ann_pct": 83.71416911999997,
+     "min_ann_pct": -273.777156,
+     "max_ann_pct": 443.10970799999996
+    },
+    "2024": {
+     "records": 8783,
+     "hours": 8783.0,
+     "days": 365.9583333333333,
+     "partial": false,
+     "omitted": 1,
+     "days_in_year": 366,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 23:00",
+     "share_above_pct": 36.27462142775817,
+     "share_at_pct": 51.053170898326314,
+     "share_below_pct": 12.67220767391552,
+     "n_above": 3186,
+     "n_at": 4484,
+     "n_below": 1113,
+     "mean_ann_pct": 22.048696965592622,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -5.810043719999996,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 29.375127,
+     "q95_ann_pct": 76.29891672,
+     "min_ann_pct": -102.6491544,
+     "max_ann_pct": 206.57709360000004
+    },
+    "2025": {
+     "records": 8760,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 23:00",
+     "share_above_pct": 9.337899543378995,
+     "share_at_pct": 55.91324200913242,
+     "share_below_pct": 34.74885844748859,
+     "n_above": 818,
+     "n_at": 4898,
+     "n_below": 3044,
+     "mean_ann_pct": 8.534730730000001,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -11.01621246,
+     "q25_ann_pct": 5.3807205,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 24.782810879999992,
+     "min_ann_pct": -337.7719344,
+     "max_ann_pct": 136.20179399999998
+    },
+    "2026": {
+     "records": 6144,
+     "hours": 6144.0,
+     "days": 256.0,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 23:00",
+     "share_above_pct": 0.17903645833333334,
+     "share_at_pct": 48.177083333333336,
+     "share_below_pct": 51.643880208333336,
+     "n_above": 11,
+     "n_at": 2960,
+     "n_below": 3173,
+     "mean_ann_pct": 5.437423806054689,
+     "median_ann_pct": 10.436883,
+     "q05_ann_pct": -11.63317926,
+     "q25_ann_pct": 2.0197931999999996,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -63.8063508,
+     "max_ann_pct": 73.0967688
+    }
+   },
+   "SOL": {
+    "2023": {
+     "records": 5047,
+     "hours": 5621.0,
+     "days": 234.20833333333334,
+     "partial": true,
+     "omitted": 2,
+     "days_in_year": 365,
+     "first": "2023-05-12 00:00",
+     "last": "2023-12-31 23:00",
+     "share_above_pct": 29.8879202988792,
+     "share_at_pct": 20.77922077922078,
+     "share_below_pct": 49.33285892190002,
+     "n_above": 1680,
+     "n_at": 1126,
+     "n_below": 2241,
+     "mean_ann_pct": 11.712238722077924,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -54.68575415999999,
+     "q25_ann_pct": -15.8059308,
+     "q75_ann_pct": 30.540776400000002,
+     "q95_ann_pct": 116.92597463999999,
+     "min_ann_pct": -180.7188,
+     "max_ann_pct": 341.1461112
+    },
+    "2024": {
+     "records": 8783,
+     "hours": 8783.0,
+     "days": 365.9583333333333,
+     "partial": false,
+     "omitted": 1,
+     "days_in_year": 366,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 23:00",
+     "share_above_pct": 41.113514744392575,
+     "share_at_pct": 48.32061937834453,
+     "share_below_pct": 10.565865877262894,
+     "n_above": 3611,
+     "n_at": 4244,
+     "n_below": 928,
+     "mean_ann_pct": 28.142823933917793,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -7.368701759999999,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 36.594856199999995,
+     "q95_ann_pct": 108.29949455999994,
+     "min_ann_pct": -136.76839080000002,
+     "max_ann_pct": 337.6602444
+    },
+    "2025": {
+     "records": 8760,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 23:00",
+     "share_above_pct": 8.127853881278538,
+     "share_at_pct": 51.74657534246575,
+     "share_below_pct": 40.12557077625571,
+     "n_above": 712,
+     "n_at": 4533,
+     "n_below": 3515,
+     "mean_ann_pct": 5.31019383,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -21.565976819999996,
+     "q25_ann_pct": 0.9247494,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 23.21382917999994,
+     "min_ann_pct": -1797.0358607999997,
+     "max_ann_pct": 120.9078852
+    },
+    "2026": {
+     "records": 6144,
+     "hours": 6144.0,
+     "days": 256.0,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 23:00",
+     "share_above_pct": 0.6510416666666666,
+     "share_at_pct": 31.656901041666668,
+     "share_below_pct": 67.69205729166667,
+     "n_above": 40,
+     "n_at": 1945,
+     "n_below": 4159,
+     "mean_ann_pct": -0.6745532064453125,
+     "median_ann_pct": 3.6113538,
+     "q05_ann_pct": -27.76723338,
+     "q25_ann_pct": -7.496808,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -121.29008400000001,
+     "max_ann_pct": 85.4319
+    }
+   },
+   "HYPE": {
+    "2024": {
+     "records": 638,
+     "hours": 638.0,
+     "days": 26.583333333333332,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 366,
+     "first": "2024-12-05 10:00",
+     "last": "2024-12-31 23:00",
+     "share_above_pct": 83.85579937304075,
+     "share_at_pct": 15.517241379310345,
+     "share_below_pct": 0.6269592476489029,
+     "n_above": 535,
+     "n_at": 99,
+     "n_below": 4,
+     "mean_ann_pct": 118.78953691974922,
+     "median_ann_pct": 93.84574860000001,
+     "q05_ann_pct": 10.95,
+     "q25_ann_pct": 33.6696951,
+     "q75_ann_pct": 176.5607784,
+     "q95_ann_pct": 323.88201269999996,
+     "min_ann_pct": -436.6619976,
+     "max_ann_pct": 722.532684
+    },
+    "2025": {
+     "records": 8760,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 23:00",
+     "share_above_pct": 28.378995433789953,
+     "share_at_pct": 64.54337899543378,
+     "share_below_pct": 7.077625570776256,
+     "n_above": 2486,
+     "n_at": 5654,
+     "n_below": 620,
+     "mean_ann_pct": 22.066206679999997,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 3.6660162000000005,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 16.850779799999998,
+     "q95_ann_pct": 83.55503495999997,
+     "min_ann_pct": -1634.8290432,
+     "max_ann_pct": 776.3722572
+    },
+    "2026": {
+     "records": 6144,
+     "hours": 6144.0,
+     "days": 256.0,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 23:00",
+     "share_above_pct": 4.78515625,
+     "share_at_pct": 73.12825520833333,
+     "share_below_pct": 22.086588541666668,
+     "n_above": 294,
+     "n_at": 4493,
+     "n_below": 1357,
+     "mean_ann_pct": 9.054024352734375,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -9.601669559999998,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -88.3028148,
+     "max_ann_pct": 158.5654608
+    }
+   },
+   "PURR": {
+    "2024": {
+     "records": 1382,
+     "hours": 1382.0,
+     "days": 57.583333333333336,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 366,
+     "first": "2024-11-04 10:00",
+     "last": "2024-12-31 23:00",
+     "share_above_pct": 67.58321273516643,
+     "share_at_pct": 30.8972503617945,
+     "share_below_pct": 1.5195369030390737,
+     "n_above": 934,
+     "n_at": 427,
+     "n_below": 21,
+     "mean_ann_pct": 151.7434049209841,
+     "median_ann_pct": 83.0736642,
+     "q05_ann_pct": 10.95,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 225.68963970000001,
+     "q95_ann_pct": 519.5026107600002,
+     "min_ann_pct": -324.983298,
+     "max_ann_pct": 1940.1673404
+    },
+    "2025": {
+     "records": 8760,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 23:00",
+     "share_above_pct": 18.687214611872147,
+     "share_at_pct": 80.06849315068493,
+     "share_below_pct": 1.2442922374429224,
+     "n_above": 1637,
+     "n_at": 7014,
+     "n_below": 109,
+     "mean_ann_pct": 27.94263392,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 10.95,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 139.61666537999966,
+     "min_ann_pct": -3408.837054,
+     "max_ann_pct": 1393.3661255999998
+    },
+    "2026": {
+     "records": 6144,
+     "hours": 6144.0,
+     "days": 256.0,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 23:00",
+     "share_above_pct": 14.55078125,
+     "share_at_pct": 82.40559895833333,
+     "share_below_pct": 3.0436197916666665,
+     "n_above": 894,
+     "n_at": 5063,
+     "n_below": 187,
+     "mean_ann_pct": 25.664719842187502,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 10.95,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 158.25489251999971,
+     "min_ann_pct": -1732.8722771999999,
+     "max_ann_pct": 1363.4375856
+    }
+   }
+  },
+  "BN": {
+   "BTCUSDT": {
+    "2019": {
+     "records": 338,
+     "hours": 2704.0,
+     "days": 112.66666666666667,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2019-09-10 08:00",
+     "last": "2019-12-31 16:00",
+     "share_above_pct": 6.804733727810651,
+     "share_at_pct": 66.86390532544378,
+     "share_below_pct": 26.331360946745562,
+     "n_above": 23,
+     "n_at": 226,
+     "n_below": 89,
+     "mean_ann_pct": 7.481924423076924,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -16.6309695,
+     "q25_ann_pct": 7.73535375,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 15.52315799999995,
+     "min_ann_pct": -57.441509999999994,
+     "max_ann_pct": 85.807485
+    },
+    "2020": {
+     "records": 1098,
+     "hours": 8784.0,
+     "days": 366.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 366,
+     "first": "2020-01-01 00:00",
+     "last": "2020-12-31 16:00",
+     "share_above_pct": 26.775956284153004,
+     "share_at_pct": 50.455373406193075,
+     "share_below_pct": 22.768670309653917,
+     "n_above": 294,
+     "n_at": 554,
+     "n_below": 250,
+     "mean_ann_pct": 17.19261594262295,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -14.194101749999998,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 14.597444999999997,
+     "q95_ann_pct": 74.76676424999992,
+     "min_ann_pct": -328.5,
+     "max_ann_pct": 328.5
+    },
+    "2021": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2021-01-01 00:00",
+     "last": "2021-12-31 16:00",
+     "share_above_pct": 42.922374429223744,
+     "share_at_pct": 43.10502283105023,
+     "share_below_pct": 13.972602739726028,
+     "n_above": 470,
+     "n_at": 472,
+     "n_below": 153,
+     "mean_ann_pct": 30.608423000000002,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -5.6941095,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 41.262885000000004,
+     "q95_ann_pct": 120.28585949999997,
+     "min_ann_pct": -98.218215,
+     "max_ann_pct": 272.647335
+    },
+    "2022": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2022-01-01 00:00",
+     "last": "2022-12-31 16:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 30.77625570776256,
+     "share_below_pct": 69.22374429223744,
+     "n_above": 0,
+     "n_at": 337,
+     "n_below": 758,
+     "mean_ann_pct": 4.164925,
+     "median_ann_pct": 5.622825,
+     "q05_ann_pct": -8.5286265,
+     "q25_ann_pct": 0.6400275,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -130.49334000000002,
+     "max_ann_pct": 10.95
+    },
+    "2023": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2023-01-01 00:00",
+     "last": "2023-12-31 16:00",
+     "share_above_pct": 6.301369863013699,
+     "share_at_pct": 38.538812785388124,
+     "share_below_pct": 55.15981735159817,
+     "n_above": 69,
+     "n_at": 422,
+     "n_below": 604,
+     "mean_ann_pct": 7.865711999999999,
+     "median_ann_pct": 9.050175000000001,
+     "q05_ann_pct": -1.7467439999999996,
+     "q25_ann_pct": 3.1629074999999998,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 16.066496999999995,
+     "min_ann_pct": -12.05157,
+     "max_ann_pct": 60.41115
+    },
+    "2024": {
+     "records": 1098,
+     "hours": 8784.0,
+     "days": 366.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 366,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 16:00",
+     "share_above_pct": 19.398907103825138,
+     "share_at_pct": 42.076502732240435,
+     "share_below_pct": 38.52459016393443,
+     "n_above": 213,
+     "n_at": 462,
+     "n_below": 423,
+     "mean_ann_pct": 11.924213920765029,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -1.7555040000000002,
+     "q25_ann_pct": 5.67456375,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 37.699590749999935,
+     "min_ann_pct": -12.302324999999998,
+     "max_ann_pct": 96.52206
+    },
+    "2025": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 16:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 17.168949771689498,
+     "share_below_pct": 82.8310502283105,
+     "n_above": 0,
+     "n_at": 188,
+     "n_below": 907,
+     "mean_ann_pct": 5.126428000000001,
+     "median_ann_pct": 5.28447,
+     "q05_ann_pct": -2.646177,
+     "q25_ann_pct": 2.035605,
+     "q75_ann_pct": 9.0885,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -13.394040000000002,
+     "max_ann_pct": 10.95
+    },
+    "2026": {
+     "records": 769,
+     "hours": 6152.0,
+     "days": 256.3333333333333,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-14 00:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 6.501950585175552,
+     "share_below_pct": 93.49804941482445,
+     "n_above": 0,
+     "n_at": 50,
+     "n_below": 719,
+     "mean_ann_pct": 2.7870156436931084,
+     "median_ann_pct": 3.36603,
+     "q05_ann_pct": -6.868716,
+     "q25_ann_pct": -0.366825,
+     "q75_ann_pct": 6.591900000000001,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -16.619909999999997,
+     "max_ann_pct": 10.95
+    }
+   },
+   "ETHUSDT": {
+    "2019": {
+     "records": 104,
+     "hours": 832.0,
+     "days": 34.666666666666664,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2019-11-27 08:00",
+     "last": "2019-12-31 16:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 78.84615384615384,
+     "share_below_pct": 21.153846153846153,
+     "n_above": 0,
+     "n_at": 82,
+     "n_below": 22,
+     "mean_ann_pct": 8.914131778846153,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 0.16025325000000004,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -24.927675,
+     "max_ann_pct": 10.95
+    },
+    "2020": {
+     "records": 1098,
+     "hours": 8784.0,
+     "days": 366.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 366,
+     "first": "2020-01-01 00:00",
+     "last": "2020-12-31 16:00",
+     "share_above_pct": 37.431693989071036,
+     "share_at_pct": 56.830601092896174,
+     "share_below_pct": 5.737704918032787,
+     "n_above": 411,
+     "n_at": 624,
+     "n_below": 63,
+     "mean_ann_pct": 27.414847827868854,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 8.0842755,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 33.557096249999994,
+     "q95_ann_pct": 98.73155099999995,
+     "min_ann_pct": -308.54691,
+     "max_ann_pct": 402.07305
+    },
+    "2021": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2021-01-01 00:00",
+     "last": "2021-12-31 16:00",
+     "share_above_pct": 45.38812785388128,
+     "share_at_pct": 44.84018264840183,
+     "share_below_pct": 9.771689497716896,
+     "n_above": 497,
+     "n_at": 491,
+     "n_below": 107,
+     "mean_ann_pct": 37.537254999999995,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 1.4874480000000017,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 47.224065,
+     "q95_ann_pct": 156.81057,
+     "min_ann_pct": -390.18354,
+     "max_ann_pct": 410.625
+    },
+    "2022": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2022-01-01 00:00",
+     "last": "2022-12-31 16:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 25.753424657534246,
+     "share_below_pct": 74.24657534246575,
+     "n_above": 0,
+     "n_at": 282,
+     "n_below": 813,
+     "mean_ann_pct": 0.7872560000000004,
+     "median_ann_pct": 4.24422,
+     "q05_ann_pct": -17.111784,
+     "q25_ann_pct": -3.0216524999999996,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -330.621015,
+     "max_ann_pct": 10.95
+    },
+    "2023": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2023-01-01 00:00",
+     "last": "2023-12-31 16:00",
+     "share_above_pct": 6.940639269406392,
+     "share_at_pct": 37.26027397260274,
+     "share_below_pct": 55.79908675799087,
+     "n_above": 76,
+     "n_at": 408,
+     "n_below": 611,
+     "mean_ann_pct": 8.259507,
+     "median_ann_pct": 9.03594,
+     "q05_ann_pct": -1.403133,
+     "q25_ann_pct": 3.367125,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 17.985265499999983,
+     "min_ann_pct": -19.16031,
+     "max_ann_pct": 77.888445
+    },
+    "2024": {
+     "records": 1098,
+     "hours": 8784.0,
+     "days": 366.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 366,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 16:00",
+     "share_above_pct": 22.040072859744992,
+     "share_at_pct": 39.61748633879781,
+     "share_below_pct": 38.342440801457194,
+     "n_above": 242,
+     "n_at": 435,
+     "n_below": 421,
+     "mean_ann_pct": 12.961408292349727,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 0.6004980000000001,
+     "q25_ann_pct": 7.0063575,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 40.40336474999998,
+     "min_ann_pct": -11.680365,
+     "max_ann_pct": 111.38778
+    },
+    "2025": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 16:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 19.360730593607308,
+     "share_below_pct": 80.6392694063927,
+     "n_above": 0,
+     "n_at": 212,
+     "n_below": 883,
+     "mean_ann_pct": 4.928718999999999,
+     "median_ann_pct": 5.256,
+     "q05_ann_pct": -2.8830254999999996,
+     "q25_ann_pct": 1.5565425000000002,
+     "q75_ann_pct": 9.23523,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -27.507495,
+     "max_ann_pct": 10.95
+    },
+    "2026": {
+     "records": 769,
+     "hours": 6152.0,
+     "days": 256.3333333333333,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-14 00:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 4.9414824447334205,
+     "share_below_pct": 95.05851755526658,
+     "n_above": 0,
+     "n_at": 38,
+     "n_below": 731,
+     "mean_ann_pct": 1.7029400130039012,
+     "median_ann_pct": 2.5820100000000004,
+     "q05_ann_pct": -8.990388000000001,
+     "q25_ann_pct": -1.238445,
+     "q75_ann_pct": 5.8363499999999995,
+     "q95_ann_pct": 10.782245999999995,
+     "min_ann_pct": -39.99597,
+     "max_ann_pct": 10.95
+    }
+   },
+   "SOLUSDT": {
+    "2020": {
+     "records": 328,
+     "hours": 2624.0,
+     "days": 109.33333333333333,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 366,
+     "first": "2020-09-13 16:00",
+     "last": "2020-12-31 16:00",
+     "share_above_pct": 9.75609756097561,
+     "share_at_pct": 62.80487804878049,
+     "share_below_pct": 27.4390243902439,
+     "n_above": 32,
+     "n_at": 206,
+     "n_below": 90,
+     "mean_ann_pct": -12.518657606707318,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -151.90628400000003,
+     "q25_ann_pct": -0.21763125000000003,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 32.69784974999996,
+     "min_ann_pct": -458.98458,
+     "max_ann_pct": 142.062015
+    },
+    "2021": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2021-01-01 00:00",
+     "last": "2021-12-31 16:00",
+     "share_above_pct": 41.461187214611876,
+     "share_at_pct": 52.054794520547944,
+     "share_below_pct": 6.4840182648401825,
+     "n_above": 454,
+     "n_at": 570,
+     "n_below": 71,
+     "mean_ann_pct": 28.594697000000004,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": 1.5481110000000007,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 43.8629625,
+     "q95_ann_pct": 145.1171744999999,
+     "min_ann_pct": -821.25,
+     "max_ann_pct": 364.053555
+    },
+    "2022": {
+     "records": 1170,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2022-01-01 00:00",
+     "last": "2022-12-31 16:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 33.401826484018265,
+     "share_below_pct": 66.59817351598174,
+     "n_above": 0,
+     "n_at": 371,
+     "n_below": 799,
+     "mean_ann_pct": -37.997537,
+     "median_ann_pct": 1.4251425000000002,
+     "q05_ann_pct": -311.41378425,
+     "q25_ann_pct": -13.1920125,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -8760.0,
+     "max_ann_pct": 10.95
+    },
+    "2023": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2023-01-01 00:00",
+     "last": "2023-12-31 16:00",
+     "share_above_pct": 8.949771689497718,
+     "share_at_pct": 41.18721461187214,
+     "share_below_pct": 49.863013698630134,
+     "n_above": 98,
+     "n_at": 451,
+     "n_below": 546,
+     "mean_ann_pct": 1.2965010000000006,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -23.698209,
+     "q25_ann_pct": -2.12868,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 26.280547499999997,
+     "min_ann_pct": -1015.1504099999999,
+     "max_ann_pct": 94.495215
+    },
+    "2024": {
+     "records": 1098,
+     "hours": 8784.0,
+     "days": 366.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 366,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 16:00",
+     "share_above_pct": 22.6775956284153,
+     "share_at_pct": 36.70309653916211,
+     "share_below_pct": 40.619307832422585,
+     "n_above": 249,
+     "n_at": 403,
+     "n_below": 446,
+     "mean_ann_pct": 13.619708729508199,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -3.0341354999999997,
+     "q25_ann_pct": 5.00332875,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 51.3541859999999,
+     "min_ann_pct": -20.394375,
+     "max_ann_pct": 130.59079499999999
+    },
+    "2025": {
+     "records": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "partial": false,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 16:00",
+     "share_above_pct": 0.182648401826484,
+     "share_at_pct": 19.269406392694062,
+     "share_below_pct": 80.54794520547945,
+     "n_above": 2,
+     "n_at": 211,
+     "n_below": 882,
+     "mean_ann_pct": 0.350703,
+     "median_ann_pct": 2.304975,
+     "q05_ann_pct": -14.318000999999999,
+     "q25_ann_pct": -3.9326925,
+     "q75_ann_pct": 9.2199,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -331.523295,
+     "max_ann_pct": 28.334220000000006
+    },
+    "2026": {
+     "records": 769,
+     "hours": 6152.0,
+     "days": 256.3333333333333,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-14 00:00",
+     "share_above_pct": 0.0,
+     "share_at_pct": 11.963589076723016,
+     "share_below_pct": 88.03641092327699,
+     "n_above": 0,
+     "n_at": 92,
+     "n_below": 677,
+     "mean_ann_pct": -1.5269810598179456,
+     "median_ann_pct": -0.025184999999999996,
+     "q05_ann_pct": -20.787699,
+     "q25_ann_pct": -6.104625,
+     "q75_ann_pct": 5.861535,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -75.78714,
+     "max_ann_pct": 10.95
+    }
+   },
+   "HYPEUSDT": {
+    "2025": {
+     "records": 1293,
+     "hours": 5172.0,
+     "days": 215.5,
+     "partial": true,
+     "omitted": 0,
+     "days_in_year": 365,
+     "first": "2025-05-30 12:00",
+     "last": "2025-12-31 20:00",
+     "share_above_pct": 16.31863882443929,
+     "share_at_pct": 71.53905645784997,
+     "share_below_pct": 12.14230471771075,
+     "n_above": 211,
+     "n_at": 925,
+     "n_below": 157,
+     "mean_ann_pct": 13.381540232018562,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -2.460246,
+     "q25_ann_pct": 10.95,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 42.694487999999986,
+     "min_ann_pct": -142.63908,
+     "max_ann_pct": 432.94766999999996
+    },
+    "2026": {
+     "records": 1536,
+     "hours": 6144.0,
+     "days": 256.0,
+     "partial": true,
+     "omitted": 1,
+     "days_in_year": 365,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-14 00:00",
+     "share_above_pct": 1.1067708333333333,
+     "share_at_pct": 49.8046875,
+     "share_below_pct": 49.088541666666664,
+     "n_above": 17,
+     "n_at": 765,
+     "n_below": 754,
+     "mean_ann_pct": 4.445728515625,
+     "median_ann_pct": 10.95,
+     "q05_ann_pct": -18.10035,
+     "q25_ann_pct": 0.58911,
+     "q75_ann_pct": 10.95,
+     "q95_ann_pct": 10.95,
+     "min_ann_pct": -59.58989999999999,
+     "max_ann_pct": 103.08330000000001
+    }
+   }
+  }
+ },
+ "invariance": {
+  "HL": {
+   "BTC": {
+    "exact_decimal": {
+     "above": 6022,
+     "at": 14762,
+     "below": 7950
+    },
+    "float_raw": {
+     "above": 6022,
+     "at": 14762,
+     "below": 7950
+    },
+    "float_simple_annualised": {
+     "above": 6022,
+     "at": 14762,
+     "below": 7950
+    },
+    "float_compound_annualised": {
+     "above": 6022,
+     "at": 14762,
+     "below": 7950
+    },
+    "all_identical": true,
+    "records": 28734
+   },
+   "ETH": {
+    "exact_decimal": {
+     "above": 6087,
+     "at": 14010,
+     "below": 8637
+    },
+    "float_raw": {
+     "above": 6087,
+     "at": 14010,
+     "below": 8637
+    },
+    "float_simple_annualised": {
+     "above": 6087,
+     "at": 14010,
+     "below": 8637
+    },
+    "float_compound_annualised": {
+     "above": 6087,
+     "at": 14010,
+     "below": 8637
+    },
+    "all_identical": true,
+    "records": 28734
+   },
+   "SOL": {
+    "exact_decimal": {
+     "above": 6043,
+     "at": 11848,
+     "below": 10843
+    },
+    "float_raw": {
+     "above": 6043,
+     "at": 11848,
+     "below": 10843
+    },
+    "float_simple_annualised": {
+     "above": 6043,
+     "at": 11848,
+     "below": 10843
+    },
+    "float_compound_annualised": {
+     "above": 6043,
+     "at": 11848,
+     "below": 10843
+    },
+    "all_identical": true,
+    "records": 28734
+   },
+   "HYPE": {
+    "exact_decimal": {
+     "above": 3315,
+     "at": 10246,
+     "below": 1981
+    },
+    "float_raw": {
+     "above": 3315,
+     "at": 10246,
+     "below": 1981
+    },
+    "float_simple_annualised": {
+     "above": 3315,
+     "at": 10246,
+     "below": 1981
+    },
+    "float_compound_annualised": {
+     "above": 3315,
+     "at": 10246,
+     "below": 1981
+    },
+    "all_identical": true,
+    "records": 15542
+   },
+   "PURR": {
+    "exact_decimal": {
+     "above": 3465,
+     "at": 12504,
+     "below": 317
+    },
+    "float_raw": {
+     "above": 3465,
+     "at": 12504,
+     "below": 317
+    },
+    "float_simple_annualised": {
+     "above": 3465,
+     "at": 12504,
+     "below": 317
+    },
+    "float_compound_annualised": {
+     "above": 3465,
+     "at": 12504,
+     "below": 317
+    },
+    "all_identical": true,
+    "records": 16286
+   }
+  },
+  "BN": {
+   "BTCUSDT": {
+    "exact_decimal": {
+     "above": 1069,
+     "at": 2711,
+     "below": 3903
+    },
+    "float_raw": {
+     "above": 1069,
+     "at": 2711,
+     "below": 3903
+    },
+    "float_simple_annualised": {
+     "above": 1069,
+     "at": 2711,
+     "below": 3903
+    },
+    "float_compound_annualised": {
+     "above": 1069,
+     "at": 2711,
+     "below": 3903
+    },
+    "all_identical": true,
+    "records": 7683
+   },
+   "ETHUSDT": {
+    "exact_decimal": {
+     "above": 1226,
+     "at": 2572,
+     "below": 3651
+    },
+    "float_raw": {
+     "above": 1226,
+     "at": 2572,
+     "below": 3651
+    },
+    "float_simple_annualised": {
+     "above": 1226,
+     "at": 2572,
+     "below": 3651
+    },
+    "float_compound_annualised": {
+     "above": 1226,
+     "at": 2572,
+     "below": 3651
+    },
+    "all_identical": true,
+    "records": 7449
+   },
+   "SOLUSDT": {
+    "exact_decimal": {
+     "above": 835,
+     "at": 2304,
+     "below": 3511
+    },
+    "float_raw": {
+     "above": 835,
+     "at": 2304,
+     "below": 3511
+    },
+    "float_simple_annualised": {
+     "above": 835,
+     "at": 2304,
+     "below": 3511
+    },
+    "float_compound_annualised": {
+     "above": 835,
+     "at": 2304,
+     "below": 3511
+    },
+    "all_identical": true,
+    "records": 6650
+   },
+   "HYPEUSDT": {
+    "exact_decimal": {
+     "above": 228,
+     "at": 1690,
+     "below": 911
+    },
+    "float_raw": {
+     "above": 228,
+     "at": 1690,
+     "below": 911
+    },
+    "float_simple_annualised": {
+     "above": 228,
+     "at": 1690,
+     "below": 911
+    },
+    "float_compound_annualised": {
+     "above": 228,
+     "at": 1690,
+     "below": 911
+    },
+    "all_identical": true,
+    "records": 2829
+   }
+  }
+ },
+ "full_history": {
+  "HL": {
+   "BTC": {
+    "records": 28734,
+    "hours": 29308.0,
+    "first": "2023-05-12 00:00",
+    "last": "2026-09-13 23:00",
+    "mean_ann_pct": 13.999292840603244,
+    "mean_ann_unweighted_pct": 14.449748263698059,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 20.547290842090895,
+    "share_at_pct": 50.77453255083936,
+    "share_below_pct": 28.67817660706974,
+    "n_above": 6022,
+    "n_at": 14762,
+    "n_below": 7950
+   },
+   "ETH": {
+    "records": 28734,
+    "hours": 29308.0,
+    "first": "2023-05-12 00:00",
+    "last": "2026-09-13 23:00",
+    "mean_ann_pct": 14.150943451085027,
+    "mean_ann_unweighted_pct": 14.547454707846107,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 20.912378872662753,
+    "share_at_pct": 48.59082844274601,
+    "share_below_pct": 30.496792684591238,
+    "n_above": 6087,
+    "n_at": 14010,
+    "n_below": 8637
+   },
+   "SOL": {
+    "records": 28734,
+    "hours": 29308.0,
+    "first": "2023-05-12 00:00",
+    "last": "2026-09-13 23:00",
+    "mean_ann_pct": 12.125895984673129,
+    "mean_ann_unweighted_pct": 12.60799497710378,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 20.61894363313771,
+    "share_at_pct": 40.56912788317183,
+    "share_below_pct": 38.81192848369046,
+    "n_above": 6043,
+    "n_at": 11848,
+    "n_below": 10843
+   },
+   "HYPE": {
+    "records": 15542,
+    "hours": 15542.0,
+    "first": "2024-12-05 10:00",
+    "last": "2026-09-13 23:00",
+    "mean_ann_pct": 20.892782183425556,
+    "mean_ann_unweighted_pct": 20.892782183425556,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 21.3293012482306,
+    "share_at_pct": 65.92459142967444,
+    "share_below_pct": 12.746107322094968,
+    "n_above": 3315,
+    "n_at": 10246,
+    "n_below": 1981
+   },
+   "PURR": {
+    "records": 16286,
+    "hours": 16286.0,
+    "first": "2024-11-04 10:00",
+    "last": "2026-09-13 23:00",
+    "mean_ann_pct": 37.58878161920668,
+    "mean_ann_unweighted_pct": 37.58878161920668,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 21.275942527324084,
+    "share_at_pct": 76.77760039297556,
+    "share_below_pct": 1.9464570797003562,
+    "n_above": 3465,
+    "n_at": 12504,
+    "n_below": 317
+   }
+  },
+  "BN": {
+   "BTCUSDT": {
+    "records": 7683,
+    "hours": 61464.0,
+    "first": "2019-09-10 08:00",
+    "last": "2026-09-14 00:00",
+    "mean_ann_pct": 11.576935316282702,
+    "mean_ann_unweighted_pct": 11.576935316282702,
+    "median_ann_pct": 10.539375,
+    "share_above_pct": 13.913835741246908,
+    "share_at_pct": 35.28569569178706,
+    "share_below_pct": 50.80046856696603,
+    "n_above": 1069,
+    "n_at": 2711,
+    "n_below": 3903
+   },
+   "ETHUSDT": {
+    "records": 7449,
+    "hours": 59592.0,
+    "first": "2019-11-27 08:00",
+    "last": "2026-09-14 00:00",
+    "mean_ann_pct": 13.824165231574707,
+    "mean_ann_unweighted_pct": 13.824165231574707,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 16.45858504497248,
+    "share_at_pct": 34.5281245804806,
+    "share_below_pct": 49.01329037454692,
+    "n_above": 1226,
+    "n_at": 2572,
+    "n_below": 3651
+   },
+   "SOLUSDT": {
+    "records": 6650,
+    "hours": 52600.0,
+    "first": "2020-09-13 16:00",
+    "last": "2026-09-14 00:00",
+    "mean_ann_pct": 0.17971872775665393,
+    "mean_ann_unweighted_pct": -12.232895413533834,
+    "median_ann_pct": 9.315165,
+    "share_above_pct": 12.699619771863118,
+    "share_at_pct": 34.961977186311785,
+    "share_below_pct": 52.338403041825096,
+    "n_above": 835,
+    "n_at": 2304,
+    "n_below": 3511
+   },
+   "HYPEUSDT": {
+    "records": 2829,
+    "hours": 11316.0,
+    "first": "2025-05-30 12:00",
+    "last": "2026-09-14 00:00",
+    "mean_ann_pct": 8.529858791092257,
+    "mean_ann_unweighted_pct": 8.529858791092257,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 8.059384941675503,
+    "share_at_pct": 59.73842347119123,
+    "share_below_pct": 32.202191587133264,
+    "n_above": 228,
+    "n_at": 1690,
+    "n_below": 911
+   }
+  }
+ },
+ "histogram": {
+  "BTC": {
+   "share_at_pct": 51.37467808171504,
+   "share_in_base_bin_pct": 52.92684624486671,
+   "bin_width_pct": 2.0
+  },
+  "ETH": {
+   "share_at_pct": 48.75756942994362,
+   "share_in_base_bin_pct": 50.49070787220714,
+   "bin_width_pct": 2.0
+  },
+  "SOL": {
+   "share_at_pct": 41.23338205610079,
+   "share_in_base_bin_pct": 42.68114428899562,
+   "bin_width_pct": 2.0
+  },
+  "HYPE": {
+   "share_at_pct": 65.92459142967442,
+   "share_in_base_bin_pct": 67.0698751769399,
+   "bin_width_pct": 2.0
+  },
+  "PURR": {
+   "share_at_pct": 76.77760039297556,
+   "share_in_base_bin_pct": 77.05391133488887,
+   "bin_width_pct": 2.0
+  }
+ },
+ "hypeusdt_gap": {
+  "record": "2026-06-24 08:00",
+  "rate": "0.00005000",
+  "treated_interval_h": 4.0,
+  "observed_delta_h": 8.0,
+  "mean_ann_pct_treated": 8.529858791092257,
+  "mean_ann_pct_alternative": 8.526844706713781,
+  "cls_treated": 0,
+  "cls_alternative": -1
+ },
+ "venues": {
+  "BTC": {
+   "overall": {
+    "windows": 3660,
+    "hours": 29280.0,
+    "days": 1220.0,
+    "first": "2023-05-12 00:00",
+    "last": "2026-09-13 16:00",
+    "hl_mean_ann_pct": 13.993874462909838,
+    "bn_mean_ann_pct": 7.2593919549180335,
+    "diff_hl_minus_bn_pct": 6.734482507991806,
+    "mean_abs_diff_pct": 10.741559919713115,
+    "corr": 0.6519868722811654,
+    "share_windows_hl_above_bn_pct": 77.92349726775957,
+    "share_windows_equal_pct": 0.08196721311475409
+   },
+   "by_year": {
+    "2023": {
+     "windows": 700,
+     "hours": 5600.0,
+     "days": 233.33333333333334,
+     "first": "2023-05-12 00:00",
+     "last": "2023-12-31 16:00",
+     "hl_mean_ann_pct": 13.454736178500001,
+     "bn_mean_ann_pct": 8.172861000000001,
+     "diff_hl_minus_bn_pct": 5.281875178500001,
+     "mean_abs_diff_pct": 16.720172157642857,
+     "corr": 0.4973453737468466,
+     "share_windows_hl_above_bn_pct": 61.857142857142854,
+     "share_windows_equal_pct": 0.4285714285714286
+    },
+    "2024": {
+     "windows": 1097,
+     "hours": 8776.0,
+     "days": 365.6666666666667,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 16:00",
+     "hl_mean_ann_pct": 24.17276081868733,
+     "bn_mean_ann_pct": 11.94125349134002,
+     "diff_hl_minus_bn_pct": 12.23150732734731,
+     "mean_abs_diff_pct": 14.06851847584321,
+     "corr": 0.7004728383619041,
+     "share_windows_hl_above_bn_pct": 86.50865998176846,
+     "share_windows_equal_pct": 0.0
+    },
+    "2025": {
+     "windows": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 16:00",
+     "hl_mean_ann_pct": 10.635112700000002,
+     "bn_mean_ann_pct": 5.126428000000001,
+     "diff_hl_minus_bn_pct": 5.508684700000002,
+     "mean_abs_diff_pct": 7.225524300000001,
+     "corr": 0.3957044684240726,
+     "share_windows_hl_above_bn_pct": 85.93607305936072,
+     "share_windows_equal_pct": 0.0
+    },
+    "2026": {
+     "windows": 768,
+     "hours": 6144.0,
+     "days": 256.0,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 16:00",
+     "hl_mean_ann_pct": 4.734763261328125,
+     "bn_mean_ann_pct": 2.7804402539062507,
+     "diff_hl_minus_bn_pct": 1.9543230074218747,
+     "mean_abs_diff_pct": 5.553222551171876,
+     "corr": 0.4278934190091017,
+     "share_windows_hl_above_bn_pct": 68.88020833333334,
+     "share_windows_equal_pct": 0.0
+    }
+   }
+  },
+  "ETH": {
+   "overall": {
+    "windows": 3660,
+    "hours": 29280.0,
+    "days": 1220.0,
+    "first": "2023-05-12 00:00",
+    "last": "2026-09-13 16:00",
+    "hl_mean_ann_pct": 14.147604091844263,
+    "bn_mean_ann_pct": 7.314185934426229,
+    "diff_hl_minus_bn_pct": 6.833418157418033,
+    "mean_abs_diff_pct": 10.817695353483609,
+    "corr": 0.6365218630508135,
+    "share_windows_hl_above_bn_pct": 77.07650273224044,
+    "share_windows_equal_pct": 0.1366120218579235
+   },
+   "by_year": {
+    "2023": {
+     "windows": 700,
+     "hours": 5600.0,
+     "days": 233.33333333333334,
+     "first": "2023-05-12 00:00",
+     "last": "2023-12-31 16:00",
+     "hl_mean_ann_pct": 19.983276084,
+     "bn_mean_ann_pct": 8.340399128571429,
+     "diff_hl_minus_bn_pct": 11.642876955428573,
+     "mean_abs_diff_pct": 18.626227285285715,
+     "corr": 0.5973085393142151,
+     "share_windows_hl_above_bn_pct": 73.14285714285714,
+     "share_windows_equal_pct": 0.7142857142857143
+    },
+    "2024": {
+     "windows": 1097,
+     "hours": 8776.0,
+     "days": 365.6666666666667,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 16:00",
+     "hl_mean_ann_pct": 22.124399348176844,
+     "bn_mean_ann_pct": 12.972562821330902,
+     "diff_hl_minus_bn_pct": 9.151836526845944,
+     "mean_abs_diff_pct": 12.726050502142206,
+     "corr": 0.663658058912101,
+     "share_windows_hl_above_bn_pct": 80.30993618960802,
+     "share_windows_equal_pct": 0.0
+    },
+    "2025": {
+     "windows": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 16:00",
+     "hl_mean_ann_pct": 8.534730730000001,
+     "bn_mean_ann_pct": 4.928718999999999,
+     "diff_hl_minus_bn_pct": 3.6060117300000014,
+     "mean_abs_diff_pct": 7.248257490000001,
+     "corr": 0.39378134634210765,
+     "share_windows_hl_above_bn_pct": 74.88584474885845,
+     "share_windows_equal_pct": 0.0
+    },
+    "2026": {
+     "windows": 768,
+     "hours": 6144.0,
+     "days": 256.0,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 16:00",
+     "hl_mean_ann_pct": 5.437423806054689,
+     "bn_mean_ann_pct": 1.6976463671875002,
+     "diff_hl_minus_bn_pct": 3.739777438867188,
+     "mean_abs_diff_pct": 6.063914767773438,
+     "corr": 0.5315025820592915,
+     "share_windows_hl_above_bn_pct": 79.16666666666666,
+     "share_windows_equal_pct": 0.0
+    }
+   }
+  },
+  "SOL": {
+   "overall": {
+    "windows": 3660,
+    "hours": 29280.0,
+    "days": 1220.0,
+    "first": "2023-05-12 00:00",
+    "last": "2026-09-13 16:00",
+    "hl_mean_ann_pct": 12.129425717663933,
+    "bn_mean_ann_pct": 4.950169790983606,
+    "diff_hl_minus_bn_pct": 7.179255926680327,
+    "mean_abs_diff_pct": 14.675142894057377,
+    "corr": 0.745187841619272,
+    "share_windows_hl_above_bn_pct": 68.85245901639344,
+    "share_windows_equal_pct": 0.16393442622950818
+   },
+   "by_year": {
+    "2023": {
+     "windows": 700,
+     "hours": 5600.0,
+     "days": 233.33333333333334,
+     "first": "2023-05-12 00:00",
+     "last": "2023-12-31 16:00",
+     "hl_mean_ann_pct": 11.62945167664286,
+     "bn_mean_ann_pct": 5.641937442857143,
+     "diff_hl_minus_bn_pct": 5.987514233785716,
+     "mean_abs_diff_pct": 26.217327815785712,
+     "corr": 0.6883984641313573,
+     "share_windows_hl_above_bn_pct": 52.142857142857146,
+     "share_windows_equal_pct": 0.8571428571428572
+    },
+    "2024": {
+     "windows": 1097,
+     "hours": 8776.0,
+     "days": 365.6666666666667,
+     "first": "2024-01-01 00:00",
+     "last": "2024-12-31 16:00",
+     "hl_mean_ann_pct": 28.21066998213309,
+     "bn_mean_ann_pct": 13.634883103919782,
+     "diff_hl_minus_bn_pct": 14.575786878213309,
+     "mean_abs_diff_pct": 17.840502607110302,
+     "corr": 0.8048359667413014,
+     "share_windows_hl_above_bn_pct": 83.59161349134003,
+     "share_windows_equal_pct": 0.0
+    },
+    "2025": {
+     "windows": 1095,
+     "hours": 8760.0,
+     "days": 365.0,
+     "first": "2025-01-01 00:00",
+     "last": "2025-12-31 16:00",
+     "hl_mean_ann_pct": 5.31019383,
+     "bn_mean_ann_pct": 0.350703,
+     "diff_hl_minus_bn_pct": 4.95949083,
+     "mean_abs_diff_pct": 9.85744315,
+     "corr": 0.7772485652374052,
+     "share_windows_hl_above_bn_pct": 72.51141552511416,
+     "share_windows_equal_pct": 0.0
+    },
+    "2026": {
+     "windows": 768,
+     "hours": 6144.0,
+     "days": 256.0,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 16:00",
+     "hl_mean_ann_pct": -0.6623506005859374,
+     "bn_mean_ann_pct": -1.5276319335937503,
+     "diff_hl_minus_bn_pct": 0.8652813330078126,
+     "mean_abs_diff_pct": 6.502554572851562,
+     "corr": 0.7564061788948006,
+     "share_windows_hl_above_bn_pct": 57.8125,
+     "share_windows_equal_pct": 0.0
+    }
+   }
+  },
+  "HYPE": {
+   "overall": {
+    "windows": 2828,
+    "hours": 11312.0,
+    "days": 471.3333333333333,
+    "first": "2025-05-30 12:00",
+    "last": "2026-09-13 20:00",
+    "hl_mean_ann_pct": 12.293484865205093,
+    "bn_mean_ann_pct": 8.53260164427157,
+    "diff_hl_minus_bn_pct": 3.7608832209335223,
+    "mean_abs_diff_pct": 9.007862480834511,
+    "corr": 0.0357216567421381,
+    "share_windows_hl_above_bn_pct": 45.72135785007072,
+    "share_windows_equal_pct": 33.2036775106082
+   },
+   "by_year": {
+    "2025": {
+     "windows": 1293,
+     "hours": 5172.0,
+     "days": 215.5,
+     "first": "2025-05-30 12:00",
+     "last": "2025-12-31 20:00",
+     "hl_mean_ann_pct": 16.145792513225057,
+     "bn_mean_ann_pct": 13.381540232018562,
+     "diff_hl_minus_bn_pct": 2.7642522812064945,
+     "mean_abs_diff_pct": 11.175299205568443,
+     "corr": -0.14874417941644935,
+     "share_windows_hl_above_bn_pct": 41.37664346481052,
+     "share_windows_equal_pct": 35.03480278422274
+    },
+    "2026": {
+     "windows": 1535,
+     "hours": 6140.0,
+     "days": 255.83333333333334,
+     "first": "2026-01-01 00:00",
+     "last": "2026-09-13 20:00",
+     "hl_mean_ann_pct": 9.048511712833875,
+     "bn_mean_ann_pct": 4.44812112703583,
+     "diff_hl_minus_bn_pct": 4.600390585798044,
+     "mean_abs_diff_pct": 7.182132392833876,
+     "corr": 0.4094222417227969,
+     "share_windows_hl_above_bn_pct": 49.38110749185668,
+     "share_windows_equal_pct": 31.66123778501629
+    }
+   }
+  }
+ },
+ "window": {
+  "start": "2025-09-10 04:00",
+  "end": "2026-09-10 03:00",
+  "HL": {
+   "BTC": {
+    "records": 8760,
+    "hours": 8760.0,
+    "first": "2025-09-10 04:00",
+    "last": "2026-09-10 03:00",
+    "mean_ann_pct": 6.002329910000001,
+    "mean_ann_unweighted_pct": 6.002329910000001,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 1.278538812785388,
+    "share_at_pct": 49.805936073059364,
+    "share_below_pct": 48.91552511415525,
+    "n_above": 112,
+    "n_at": 4363,
+    "n_below": 4285
+   },
+   "ETH": {
+    "records": 8760,
+    "hours": 8760.0,
+    "first": "2025-09-10 04:00",
+    "last": "2026-09-10 03:00",
+    "mean_ann_pct": 6.2728320800000015,
+    "mean_ann_unweighted_pct": 6.2728320800000015,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 0.8904109589041096,
+    "share_at_pct": 53.25342465753425,
+    "share_below_pct": 45.85616438356164,
+    "n_above": 78,
+    "n_at": 4665,
+    "n_below": 4017
+   },
+   "SOL": {
+    "records": 8760,
+    "hours": 8760.0,
+    "first": "2025-09-10 04:00",
+    "last": "2026-09-10 03:00",
+    "mean_ann_pct": -0.04274986999999964,
+    "mean_ann_unweighted_pct": -0.04274986999999964,
+    "median_ann_pct": 5.4740364,
+    "share_above_pct": 1.5753424657534247,
+    "share_at_pct": 35.970319634703195,
+    "share_below_pct": 62.454337899543376,
+    "n_above": 138,
+    "n_at": 3151,
+    "n_below": 5471
+   },
+   "HYPE": {
+    "records": 8760,
+    "hours": 8760.0,
+    "first": "2025-09-10 04:00",
+    "last": "2026-09-10 03:00",
+    "mean_ann_pct": 10.335681019999999,
+    "mean_ann_unweighted_pct": 10.335681019999999,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 9.280821917808218,
+    "share_at_pct": 72.85388127853881,
+    "share_below_pct": 17.865296803652967,
+    "n_above": 813,
+    "n_at": 6382,
+    "n_below": 1565
+   },
+   "PURR": {
+    "records": 8760,
+    "hours": 8760.0,
+    "first": "2025-09-10 04:00",
+    "last": "2026-09-10 03:00",
+    "mean_ann_pct": 24.40142372,
+    "mean_ann_unweighted_pct": 24.40142372,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 15.148401826484019,
+    "share_at_pct": 82.18036529680366,
+    "share_below_pct": 2.671232876712329,
+    "n_above": 1327,
+    "n_at": 7199,
+    "n_below": 234
+   }
+  },
+  "BN": {
+   "BTCUSDT": {
+    "records": 1095,
+    "hours": 8760.0,
+    "first": "2025-09-10 08:00",
+    "last": "2026-09-10 00:00",
+    "mean_ann_pct": 3.339031,
+    "mean_ann_unweighted_pct": 3.339031,
+    "median_ann_pct": 3.888345,
+    "share_above_pct": 0.0,
+    "share_at_pct": 7.671232876712328,
+    "share_below_pct": 92.32876712328768,
+    "n_above": 0,
+    "n_at": 84,
+    "n_below": 1011
+   },
+   "ETHUSDT": {
+    "records": 1095,
+    "hours": 8760.0,
+    "first": "2025-09-10 08:00",
+    "last": "2026-09-10 00:00",
+    "mean_ann_pct": 2.462857,
+    "mean_ann_unweighted_pct": 2.462857,
+    "median_ann_pct": 3.1404599999999996,
+    "share_above_pct": 0.0,
+    "share_at_pct": 6.210045662100456,
+    "share_below_pct": 93.78995433789954,
+    "n_above": 0,
+    "n_at": 68,
+    "n_below": 1027
+   },
+   "SOLUSDT": {
+    "records": 1095,
+    "hours": 8760.0,
+    "first": "2025-09-10 08:00",
+    "last": "2026-09-10 00:00",
+    "mean_ann_pct": -1.8075089999999996,
+    "mean_ann_unweighted_pct": -1.8075089999999996,
+    "median_ann_pct": 0.544215,
+    "share_above_pct": 0.0,
+    "share_at_pct": 12.69406392694064,
+    "share_below_pct": 87.30593607305936,
+    "n_above": 0,
+    "n_at": 139,
+    "n_below": 956
+   },
+   "HYPEUSDT": {
+    "records": 2189,
+    "hours": 8756.0,
+    "first": "2025-09-10 04:00",
+    "last": "2026-09-10 00:00",
+    "mean_ann_pct": 6.960038099588853,
+    "mean_ann_unweighted_pct": 6.960038099588853,
+    "median_ann_pct": 10.95,
+    "share_above_pct": 4.842393787117405,
+    "share_at_pct": 56.14435815440841,
+    "share_below_pct": 39.01324805847419,
+    "n_above": 106,
+    "n_at": 1229,
+    "n_below": 854
+   }
+  },
+  "venues": {
+   "BTC": {
+    "windows": 1095,
+    "hl_mean_ann_pct": 6.005592190000001,
+    "bn_mean_ann_pct": 3.339031,
+    "diff_hl_minus_bn_pct": 2.6665611900000012,
+    "corr": 0.42823282358153014
+   },
+   "ETH": {
+    "windows": 1095,
+    "hl_mean_ann_pct": 6.27528266,
+    "bn_mean_ann_pct": 2.462857,
+    "diff_hl_minus_bn_pct": 3.81242566,
+    "corr": 0.4483347003023809
+   },
+   "SOL": {
+    "windows": 1095,
+    "hl_mean_ann_pct": -0.03623086999999886,
+    "bn_mean_ann_pct": -1.8075089999999996,
+    "diff_hl_minus_bn_pct": 1.7712781300000007,
+    "corr": 0.8624615871255773
+   },
+   "HYPE": {
+    "windows": 2189,
+    "hl_mean_ann_pct": 10.331931396893559,
+    "bn_mean_ann_pct": 6.960038099588853,
+    "diff_hl_minus_bn_pct": 3.3718932973047067,
+    "corr": -0.1321533844956261
+   }
+  }
+ }
+}
