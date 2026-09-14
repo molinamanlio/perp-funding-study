@@ -182,9 +182,16 @@ Verbatim statements from that page:
   the `meta` universe, not HIP-3 markets, so the standard 0.01 %/8 h applies.
 
 **Value and unit.** Interest rate = 0.0001 per 8 h = 0.0000125 per hour (decimal
-fraction, i.e. 0.01 %/8 h = 0.00125 %/h). Compounded nothing, simple: 0.0000125 × 8,760
-= 0.1095 ≈ 10.95 %/yr (the docs' "11.6 % APR" is a rounding/compounding artefact of the
-docs, not a different value).
+fraction, i.e. 0.01 %/8 h = 0.00125 %/h). Annualised two ways (both recomputed in
+session on 2026-09-14):
+
+- Simple: hourly rate × 8,760 = 0.0000125 × 8,760 = 0.1095 = 10.95 %/yr.
+- Compound: (1 + rate per 8 h)^1095 − 1 = (1 + 0.0001)^1095 − 1 = 0.115714 =
+  11.57 %/yr, with 1,095 = 3 settlements/day × 365 days.
+
+The docs' "11.6 % APR" is the compound figure (11.57 % rounded to one decimal).
+Both are valid conventions for expressing the same value; the documentation is not in
+error, it simply uses the compound convention while the simple one gives 10.95 %.
 
 **How it enters the stored `fundingRate`.** The stored value is the hourly rate
 F/8. When |P| is inside the clamp band, `interest − P` is not clamped and F = P + (r − P)
@@ -215,6 +222,17 @@ which U3 counts hours above/below base.
   A change of the interest rate would move that plateau to a different constant; no
   other constant appears more than twice in any series. U3 can use r = 0.0000125/h for
   the whole window.
+
+**Annualisation convention for U3.** U3 annualises with the **simple** convention:
+per-settlement rate × number of settlements per year, where the number of settlements
+is derived from the observed interval between consecutive timestamps (8,760 for 1 h,
+2,190 for 4 h, 1,095 for 8 h, 4,380 for 2 h during the SOLUSDT episode). Under this
+convention the Hyperliquid base is 10.95 %/yr. The convention must be applied
+**identically to the observed funding and to the base rate**: comparing observed rates
+annualised one way against a base annualised the other way (e.g. observed simple vs.
+base 11.57 % compound) shifts the threshold and biases the count of hours above the
+base. Whenever a compound figure is quoted for readability, both sides are recomputed
+under that convention together.
 
 ## 8. Listing dates vs. series start
 

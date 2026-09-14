@@ -228,8 +228,8 @@ is enforced by IP, not by account.
   <https://dev.binance.vision/t/google-cloud-and-ip-restriction-451-on-fapi-binance/13820>,
   <https://github.com/ccxt/ccxt/issues/15872>.
 - **Where it works.** The 2026-09-14 run succeeded from this laptop on a residential
-  connection outside the restricted list (the CloudFront edge that answered was `DFW`;
-  the CDN edge location is not the client's location and is not what Binance checks).
+  connection in **Mexico** (the CloudFront edge that answered was `DFW`; the CDN edge
+  location is not the client's location and is not what Binance checks).
   Community reports indicate EU (Ireland, Frankfurt) and APAC (Singapore, Tokyo) cloud
   regions work.
 - **What to do if it occurs.** Run the downloader from a non-restricted network or
