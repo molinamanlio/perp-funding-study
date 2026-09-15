@@ -36,7 +36,7 @@ funding mechanism prevents the upper tail from returning; the data say when it w
 there and when it left.
 
 The rest of the note is about what the series look like once the question is
-answered, and one of those observations is, in our view, the more useful result:
+answered, and one of those observations is arguably the more useful result:
 the funding series that everyone downloads is an interval-censored observation of
 the premium, and the censoring band on Hyperliquid has not been constant.
 
@@ -118,17 +118,17 @@ base to be pinned to; and "at base" in every other regime means "premium inside
 (docs/03 §8.1). The documented band holds from 2023-12-11 23:00 UTC onward.
 
 **Status of this result.** It is an inference from the published series, not a
-fact confirmed by the venue. Before writing this note we looked for public
-communication from Hyperliquid at the three change dates and for the 677-hour
+fact confirmed by the venue. Before this note was written, public communication
+from Hyperliquid was searched for at the three change dates and for the 677-hour
 window with F = P:
 
 - Hyperliquid documentation, *Trading → Funding* (GitBook), and the community wiki
   page on funding: both describe only the current formula and carry no history of
   parameter values.
 - Hyperliquid's public Telegram announcements channel: its first post is dated
-  2023-09-26, so it cannot cover June or July 2023. We read the pages covering
-  2023-09-26 to 2024-01-04, which include 2023-12-11; no post mentions funding
-  parameters, the premium, the interest rate or a band change.
+  2023-09-26, so it cannot cover June or July 2023. The pages covering
+  2023-09-26 to 2024-01-04, which include 2023-12-11, were read; no post mentions
+  funding parameters, the premium, the interest rate or a band change.
 - Hyperliquid's Medium quarterly updates for Q2 and Q3 2023 could not be retrieved
   from this session (HTTP 403); the app's announcements page renders no content
   without a browser; Discord is not accessible.
@@ -342,10 +342,12 @@ the band's history from the data, and a reproducible pipeline for both.
 ## 5. A question this note anticipates and does not answer
 
 A persistent differential of roughly 7 pp per year between two venues on the same
-asset (docs/03 §5) suggests a *cross-venue* carry: short the perpetual where
-funding is higher, long it where it is lower, hedged in the asset. That is a
-different trade from the *within-venue* carry this study measured, and it is out of
-scope, for stated reasons:
+asset (docs/03 §5) suggests a *cross-venue* carry with exactly two legs, both
+perpetuals on the same asset in equivalent notional: short on the venue where
+funding is higher, long on the venue where it is lower. The directional exposure
+cancels between the two legs, so no position in the asset itself is needed. That is
+a different trade from the *within-venue* carry this study measured, and it is out
+of scope, for stated reasons:
 
 - The study measures published rates, not execution: no fees, slippage, or
   basis at entry and exit on either venue.
@@ -387,7 +389,11 @@ Correlation with and without that window (docs/03 §8.4):
 | Excluding the five most discordant windows | 0.421 |
 | 2025-Q4 alone (contains the event) | −0.701 |
 | Each of the other five quarters | +0.28 to +0.48 |
-| 7-day sums | 0.556 (BTC / ETH / SOL at 7 days: 0.858 / 0.816 / 0.885) |
+| 7-day sums | 0.556 |
+
+The contrast between markets at that aggregation level: at 7-day sums the three
+majors correlate across venues far more than HYPE does, 0.858 / 0.816 / 0.885 for
+BTC / ETH / SOL against 0.556 (docs/03 §8.4).
 
 ![Figure 7](figures/fig7-hype-correlation.png)
 
