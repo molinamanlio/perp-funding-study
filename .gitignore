@@ -1,5 +1,26 @@
+# Re-downloaded series (reproduction output). data/baseline/ and data/full/ are
+# deliverables and stay tracked.
 data/downloaded/
-__pycache__/
+
+# Exported session transcripts, never tracked
 sessions/
+
+# Python
+__pycache__/
+*.pyc
 .venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Credentials (none are needed by this study; belt and braces)
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+*.token
+
+# Scratch
 results/*.tmp

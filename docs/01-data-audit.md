@@ -6,21 +6,13 @@ are quoted only in the "Discrepancies" section, and only to compare.
 
 ## 1. Where the data actually is
 
-The task brief said the series live under `evidencia/` in the private working repo.
-They do not. `evidencia/` (156 KB, 12 files) holds only manifests, checksums, journals
-and a reconciliation note for the *order-book capture* of 2026-09-03..09-10; the
-~90 MB of book snapshots themselves are git-ignored and are **not present** on this
-machine (only their SHA-256 sums are).
-
-The funding-rate histories that this study is about are in the git-ignored directory
-`data/historico/` of the private repo: nine JSONL files, 7.1 MB in total, downloaded
-2026-09-09 (Hyperliquid) and 2026-09-10 (Binance). No download script survives in the
-repo; the files were pulled ad hoc. U2 has to build the downloader from scratch and
-prove it reproduces these files.
-
-A 420-line fixture (`fixtures/purr-funding-bursts-2026-09-06.jsonl`, 7 h of 1-minute
-snapshots) also exists, but it is a private-runtime snapshot format, not a funding
-history, and is out of scope for the public study.
+The nine funding-rate histories that this study is about were copied verbatim from
+the author's private working repository, where they had been downloaded ad hoc on
+2026-09-09 (Hyperliquid) and 2026-09-10 (Binance): nine JSONL files, 7.1 MB in total.
+No download script existed for them, so U2 has to build the downloader from scratch
+and prove it reproduces these files. Their markets, granularity, date ranges, record
+counts, schema and SHA-256 sums are in §2 and §3 below; the frozen copies are in
+`data/baseline/` with `SHA256SUMS`.
 
 ## 2. Inventory
 
@@ -135,7 +127,7 @@ claims (share of hours above base, regime shift, venue comparison) are recompute
 |---|---|
 | "One year of Hyperliquid funding history in five markets" | Confirmed: 5 markets × 8,760 hourly records, 100 % coverage. |
 | "Binance history since 2019" | Partly: BTCUSDT from 2019-09-10, ETHUSDT from 2019-11-27, SOLUSDT only from 2020-09-13, HYPEUSDT from 2025-05-30. "Since 2019" holds for BTC and ETH only. |
-| "Data is in `evidencia/`" | No. It is in the git-ignored `data/historico/`. `evidencia/` holds only manifests and checksums of the book capture, whose payload is absent on this machine. |
+| "The series are in the evidence directory of the private repo" | No. They were in a separate, git-ignored data directory of that repo; the directory named in the brief held only manifests and checksums of other material, out of scope for this study. |
 | "Zero gaps" (from the working notes, Hyperliquid) | Confirmed for Hyperliquid. Binance HYPEUSDT has one missing 4 h slot (2026-06-24 04:00). |
 | Working notes: "Intervalo 8 h (HYPE 4 h)" | Correct as the base cadence, but SOLUSDT ran at 4 h and 2 h for nine days in Nov 2022 (75 extra records). Any code that assumes a constant interval per symbol is wrong for that window. |
 
@@ -203,10 +195,12 @@ which U3 counts hours above/below base.
 
 **Did the base change between 2025-09-10 and 2026-09-10?** No evidence that it did:
 
-- The docs page was edited on 2026-04-08 (GitBook metadata). The archived text before
-  that edit could not be retrieved from this machine (web.archive.org is not reachable
-  from this session), so the *text* diff is unknown. The likely addition is the HIP-3
-  premium paragraph, which post-dates the HIP-3 launch; this is an inference.
+- The page's GitBook metadata says it was last edited on 2026-04-08. The text of the
+  page before that edit was **not consulted**: the two attempts to retrieve an
+  archived copy from web.archive.org during the U2 session (2026-09-14) failed at the
+  network level, and no archived copy has been read since. The text diff is therefore
+  unknown, and whether the edit added the HIP-3 premium paragraph is **not verified**.
+  Everything quoted above is from the live page as consulted on 2026-09-14.
 - The *data* is unambiguous: the exact string `0.0000125` is the modal `fundingRate` in
   every calendar month of the window for all five coins (counts of records exactly at
   base / records in month):

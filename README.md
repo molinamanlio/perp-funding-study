@@ -119,15 +119,52 @@ window with F = P:
   parameters, the premium, the interest rate or a band change.
 - Hyperliquid's Medium quarterly updates for Q2 and Q3 2023 could not be retrieved
   from this session (HTTP 403); the app's announcements page renders no content
-  without a browser; web.archive.org is not reachable from this session; Discord
-  is not accessible.
+  without a browser; Discord is not accessible.
 - General web search for the dates and the terms returned only third-party
   explainers of the current formula.
+- The Wayback Machine (web.archive.org), checked manually for the documentation
+  site `hyperliquid.gitbook.io/hyperliquid-docs`. Each capture is cited as
+  `web.archive.org/web/TIMESTAMP/URL` with the timestamp of the archived capture,
+  taken from the domain's CDX index:
+  - The page *trading/funding* has no archived capture in 2023. Its first capture
+    is from 2024, already under the ±5 bp regime. This comes from a manual query
+    of the domain's CDX index; no individual capture is cited for it.
+  - The CDX index confirms that the crawler did capture sister pages of *trading/*
+    during 2023: *margining* on 2023-05-03
+    (<https://web.archive.org/web/20230503111039/https://hyperliquid.gitbook.io/hyperliquid-docs/trading/margining>),
+    *index-perpetual-contracts* on 2023-10-12
+    (<https://web.archive.org/web/20231012183856/https://hyperliquid.gitbook.io/hyperliquid-docs/trading/index-perpetual-contracts>),
+    *fees* on 2023-10-18
+    (<https://web.archive.org/web/20231018140922/https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees>) and
+    *hyperps* on 2023-10-27
+    (<https://web.archive.org/web/20231027221626/https://hyperliquid.gitbook.io/hyperliquid-docs/trading/hyperps>).
+    The absence of *funding* is a crawl gap, not the absence of the page.
+  - The archived sitemap captured on 2023-05-25
+    (<https://web.archive.org/web/20230525044309/https://hyperliquid.gitbook.io/hyperliquid-docs/sitemap.xml>)
+    lists *trading/funding* with a last-modified date of 2023-05-19, so the page
+    existed during the variable-band period. It cannot be claimed that funding was
+    undocumented in that period.
+  - The capture of the *trading* index of 2023-04-25
+    (<https://web.archive.org/web/20230425233118/https://hyperliquid.gitbook.io/hyperliquid-docs/trading>)
+    shows eight articles in the section, and *Funding* is not among them; it
+    appears as the previous page in the navigation order. This indicates that the
+    page was moved into *trading/* between late April and 2023-05-19.
+  - Hyperliquid was still in its mainnet-alpha phase during the reconstructed
+    period, according to the archived pages
+    *getting-started/trade-on-mainnet-alpha*, captured on 2023-05-25
+    (<https://web.archive.org/web/20230525030206/https://hyperliquid.gitbook.io/hyperliquid-docs/getting-started/trade-on-mainnet-alpha>),
+    and *getting-started/earn-access-to-mainnet-alpha*, captured on 2023-09-27
+    (<https://web.archive.org/web/20230927111608/https://hyperliquid.gitbook.io/hyperliquid-docs/getting-started/earn-access-to-mainnet-alpha>).
 
-**We found no venue communication for 2023-06-16, 2023-07-15, 2023-12-11, or for
-the F = P window.** A reader with access to the Discord history or to archived
-copies of the documentation from 2023 may be able to close this gap; the dates
-above are precise enough to check. Two other venue-wide events visible in the same
+**There is no archived evidence of the band's value before December 2023, and no
+public communication was located for the three change dates** (2023-06-16,
+2023-07-15, 2023-12-11) or for the F = P window. The open route for independent
+corroboration is the venue's own historical archive in the S3 bucket
+`hyperliquid-archive`, with asset contexts under `asset_ctxs/`, which is a source
+distinct from the `fundingHistory` endpoint used in this study; it is named here as
+a verification path, not as something done. None of this changes the
+reconstruction of the band, which rests on the 118,022 of 118,030 settlements
+reproduced. Two other venue-wide events visible in the same
 data are independent of the band and are recorded in docs/03 §0.2: the cadence
 change from 8 h to 1 h settlement on 2023-06-08, and three omitted hourly
 settlements (2023-07-02 20:00, 2023-08-23 20:00, 2024-08-15 13:00).
@@ -364,7 +401,7 @@ case and does not retry. Run it from a non-restricted network; `--only hl`
 downloads the Hyperliquid half from anywhere (docs/02 §8).
 
 ```
-git clone <this repository>
+git clone REPOSITORY_URL    # placeholder: see the note after this block
 cd perp-funding-study
 
 # 1. Re-download the nine series (stdlib only) and verify against the frozen baseline
@@ -382,12 +419,18 @@ python3 -m venv .venv
 .venv/bin/python scripts/analyse_clamp.py   # §8, figures 5–7 (run after analyse.py)
 ```
 
+`REPOSITORY_URL` is the only placeholder in this repository. Once the repository
+is published, replace that single token in the block above with its clone URL;
+nothing else needs editing.
+
 Expected outcome of step 1: every baseline record reappears identical, and the
 only records present on one side are those the API served after the baseline's
 last timestamp (docs/02 §7). Step 2 must hash identically unless a venue rewrites
 history; if it does not, report it rather than patch it. Step 3 overwrites the
 tracked outputs; `git diff` after it should show only generation timestamps (in the
-documents, the JSON and the SVG metadata), no change in any number.
+documents, the JSON and the SVG metadata) and the random element identifiers that
+matplotlib writes into the SVG files (clip-path and marker ids), no change in any
+number; the PNG files come out byte-identical.
 
 ## 9. Documents
 
