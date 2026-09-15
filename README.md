@@ -1,10 +1,17 @@
 # Perpetual funding on Hyperliquid and Binance: is there a carry to capture?
 
-Research note. Version of 2026-09-14. All numbers below are taken from
-`results/analysis.json` or from the documents that `scripts/analyse.py` and
-`scripts/analyse_clamp.py` generate from it (`docs/03-analysis.md`,
-`docs/04-discrepancies.md`); each number is followed by the section or figure it
-comes from. Nothing in this note is typed from memory.
+Research note. Version of 2026-09-15.
+
+The funding carry existed and it is gone. On Hyperliquid, BTC funding was strictly
+above the venue's base rate in 37.3 % of hours in 2024 and in 0.7 % of hours in
+2026 to date, and its hour-weighted annualised mean fell from 24.14 %/yr to
+4.73 %/yr; Binance BTCUSDT made the same move, from 11.92 %/yr to 2.79 %/yr (§1,
+§3.2). The clamp band that Hyperliquid documents at ±0.05 % was not constant: the
+settled series implies a half-width of 3 bp from 2023-05-12, no clamp and no
+interest component for 677 hours from 2023-06-16, 3 bp again from 2023-07-15, and
+the documented 5 bp only from 2023-12-11 23:00 UTC (§3.1). And the settled funding
+series is an interval-censored observation of the premium: on Hyperliquid, 83.5 %
+of the BTC premium's variance never reaches the settled rate (§3.3).
 
 ## 1. Question and answer
 
@@ -69,6 +76,11 @@ The original working figures that motivated the study were recomputed on their
 window and on the full history; all five annual means and both "share above base"
 figures reproduce to rounding (docs/04 §1), and docs/04 §2 states which claims
 survive on the full history.
+
+All numbers in this note are taken from `results/analysis.json` or from the
+documents that `scripts/analyse.py` and `scripts/analyse_clamp.py` generate from it
+(`docs/03-analysis.md`, `docs/04-discrepancies.md`); each number is followed by
+the section or figure it comes from. Nothing in this note is typed from memory.
 
 ## 3. Findings
 
@@ -177,6 +189,10 @@ at base is 50.8 % for BTC, 48.6 % ETH, 40.6 % SOL, 65.9 % HYPE and 76.8 % PURR, 
 the median annualised rate is the base itself, 10.95 %/yr, in all eight full
 Hyperliquid market-years (docs/03 §7). Means are driven by the tails.
 
+![Figure 0](figures/fig0-base-mass.png)
+
+*Figure 0. Top: hour-weighted share of hours at, above and below the base per market-year. Bottom: histogram of the annualised hourly rate per market (2 pp bins, log scale); the grey bar is the bin containing the base. From docs/03 §2.*
+
 The upper tail thinned out between 2024 and 2025 and is almost gone in 2026:
 
 | Market | Above base 2024 | Above base 2025 | Above base 2026* | Below base 2026* |
@@ -190,6 +206,10 @@ The upper tail thinned out between 2024 and 2025 and is almost gone in 2026:
 
 Hour-weighted shares, docs/03 §2 and §4, Figure 2; * partial year, 256 days.
 
+![Figure 2](figures/fig2-share-above-base.png)
+
+*Figure 2. Hour-weighted share of each calendar year in which funding was strictly above the venue base, Hyperliquid on the left and Binance on the right, with the same base per hour on both. From docs/03 §2 and §4.*
+
 In annualised means the same move is 24.14 → 10.63 → 4.73 %/yr for BTC on
 Hyperliquid across 2024, 2025 and 2026, and 11.92 → 5.13 → 2.79 %/yr for BTCUSDT
 on Binance (docs/03 §3 and §4, Figures 1 and 4). Binance's longer history shows
@@ -197,6 +217,14 @@ the earlier cycle: 30.61 / 37.54 / 28.59 %/yr for BTCUSDT / ETHUSDT / SOLUSDT in
 2021, then 4.16 / 0.79 / −38.00 in 2022 (docs/03 §6, §7). The 2022 SOLUSDT figure
 carries the −2 % cap settled every 2 h during November 2022, annualised at its real
 interval (docs/03 §7).
+
+![Figure 1](figures/fig1-timeseries-annualised.png)
+
+*Figure 1. Simple-annualised Hyperliquid funding, hour-weighted trailing means over 30 days (thick line) and 7 days (thin line); the dashed line is the base of 10.95 %/yr. From docs/03 §3.*
+
+![Figure 4](figures/fig4-distribution-by-year.png)
+
+*Figure 4. Per-settlement annualised rate by calendar year: 5th to 95th percentile, interquartile range, median and hour-weighted mean; the dashed line is the base. From docs/03 §7.*
 
 The decline is on both venues and the venue is not what makes recent funding low;
 if anything Binance is lower (docs/03 §7, docs/04 §2).
@@ -217,6 +245,10 @@ F on the premium's basis. Over the whole history:
 | PURR | 76.8 % | 26.2 % | 0.98 |
 
 docs/03 §8.2, Figure 5; `u3bis.censoring.<market>.all` in `results/analysis.json`.
+
+![Figure 5](figures/fig5-clamp-censoring.png)
+
+*Figure 5. Top: settled rate against the hourly premium in the 5 bp regime; the flat segment is the clamp band. Bottom: 5th to 95th percentile, interquartile range and median of the premium during anchored hours, per year, labelled with the share of hours at base. From docs/03 §8.2.*
 
 The premium in anchored hours spans the whole band: for BTC over the full history
 its 5th to 95th percentile is −3.76 to 5.27 bp per 8 h against a band of −4 to
@@ -242,6 +274,10 @@ per year, with window-level correlations of 0.652, 0.637 and 0.745; HYPE shows
 Figure 3). Hyperliquid is above Binance in 77.9 % / 77.1 % / 68.9 % of BTC / ETH /
 SOL windows (docs/03 §5).
 
+![Figure 3](figures/fig3-venue-comparison.png)
+
+*Figure 3. 30-day trailing means of the annualised rate per Binance settlement window, with Hyperliquid's hourly rates summed into the same windows. From docs/03 §5.*
+
 One mechanical explanation was tested: Hyperliquid averages the premium over 1 h,
 Binance over 8 h; a shorter window means a higher-variance premium, more mass
 outside the band and, with a right-skewed premium, a higher settled mean. The
@@ -255,34 +291,42 @@ sign across years (BTC: +0.18, +0.89, −0.14, −0.40 pp for 2023 to 2026). Sim
 re-aggregation of hourly rates into 8 h windows cannot move the mean at all by
 construction (docs/03 §8.3 c). The hypothesis is rejected.
 
+![Figure 6](figures/fig6-venue-decomposition.png)
+
+*Figure 6. Top: the Hyperliquid minus Binance differential per year, split into the averaging-window effect and the residual. Bottom: BTC, 30-day trailing means of the actual, counterfactual and Binance series. From docs/03 §8.3.*
+
 What remains is +6.56 / +6.76 / +7.19 pp for BTC / ETH / SOL (docs/03 §8.3 d).
 Since both venues use the same formula, the same interest rate and, since
 2023-12-11 23:00, the same ±0.05 % band, the residual is a difference in the
 premium itself, i.e. in mark versus reference price on the two venues, not in the
-funding mechanics. **What drives that premium difference is not explained by this
-study**; it is outside the reach of funding data.
+funding mechanics. The two premiums are also measured against references built
+differently, Hyperliquid's oracle price against Binance's index price, so part of
+the residual may originate in the construction of the reference rather than in
+where the perpetual trades. **What drives that premium difference is not explained
+by this study**; it is outside the reach of funding data.
 
 ## 4. Related work
 
 **The clamp is documented by the exchanges, with numerical examples.** This note
-claims no novelty on the mechanism. Binance's funding-rate introduction states the
-formula F = [P + clamp(I − P, 0.05 %, −0.05 %)] / (8 / N) and says verbatim: "If
-(Interest Rate (I) − Premium Index (P)) is within +/−0.05% then F = P + (I − P) =
-I. In other words, the funding rate will be equal to the Interest Rate", with a
-worked example in which a premium of 0.0429 % yields a funding rate of 0.0100 %
+claims no novelty on the mechanism. Binance's funding-rate introduction gives the
+formula F = [P + clamp(I − P, 0.05 %, −0.05 %)] / (8 / N) and explains that, when
+the gap between the interest rate and the premium index lies within ±0.05 %, the
+clamp returns that gap unchanged and the funding rate collapses to the interest
+rate; its worked example takes a premium of 0.0429 % to a funding rate of 0.0100 %
 (<https://www.binance.com/en/support/faq/introduction-to-binance-futures-funding-rates-360033525031>).
 Bybit's help centre gives the same formula, F = P + clamp(I − P, 0.05 %, −0.05 %),
 with I = 0.01 % per 8 h interval
 (<https://www.bybit.com/en/help-center/article/Introduction-to-Funding-Rate>).
 Hyperliquid's documentation gives F = P + clamp(interest rate − P, −0.0005,
-0.0005) with the interest rate "predetermined at 0.01% every 8 hours"
+0.0005) with an interest rate fixed at 0.01 % per 8 h
 (<https://hyperliquid.gitbook.io/hyperliquid-docs/trading/funding>, consulted
-2026-09-14; docs/01 §7 quotes it in full). The point mass at the base in every
+2026-09-14; docs/01 §7 paraphrases the page). The point mass at the base in every
 series (docs/03 §2) is exactly what these documents predict.
 
 **Academic work on the same Hyperliquid hourly series.** Nam Anh Le,
 *Funding-Aware Optimal Market Making for Perpetual DEXs*, arXiv:2605.06405
-(submitted 2026-05-07), calibrates a Gaussian Ornstein–Uhlenbeck process for the
+(submitted 2026-05-07; title, author, identifier and date checked against the
+arXiv abstract page on 2026-09-15), calibrates a Gaussian Ornstein–Uhlenbeck process for the
 funding rate on Hyperliquid hourly funding observations for ETH, BTC and SOL, using
 the rate the exchange reports, and derives optimal quotes from it. What this study
 does that that one does not is to read the premium published next to the rate and
@@ -326,14 +370,13 @@ Binance settled +432.9 %/yr for HYPEUSDT, opposite signs, accounting for −722 
 the sample covariance (docs/03 §8.4). In the hour ending 2025-10-10 22:00 UTC
 Hyperliquid settled −1635 %/yr on a premium of −154.3 bp per 8 h (docs/03 §8.4).
 
-That window is the largest liquidation event recorded in crypto, with the largest
-contraction of open interest occurring on Hyperliquid. CoinDesk Research
-("Market Spotlight: Inside Crypto's $19 Billion Liquidation Event", 2025-10-17)
-puts it as "$19 billion in leveraged positions liquidated within 24 hours" and
-states that "the largest contraction came from Hyperliquid, where open interest
-fell 57% - from $14 billion to $6 billion"
-(<https://www.coindesk.com/research/market-spotlight-the-19-billion-liquidation-that-shook-crypto>).
-Those figures are the source's, not this study's.
+According to CoinDesk Research ("Market Spotlight: Inside Crypto's $19 Billion
+Liquidation Event", 2025-10-17,
+<https://www.coindesk.com/research/market-spotlight-the-19-billion-liquidation-that-shook-crypto>),
+that window was the largest liquidation event recorded in crypto, with about
+$19 billion of leveraged positions liquidated in 24 hours, and the largest
+contraction of open interest took place on Hyperliquid, where it fell by 57 %,
+from $14 billion to $6 billion. Those figures are the source's, not this study's.
 
 Correlation with and without that window (docs/03 §8.4):
 
@@ -345,6 +388,10 @@ Correlation with and without that window (docs/03 §8.4):
 | 2025-Q4 alone (contains the event) | −0.701 |
 | Each of the other five quarters | +0.28 to +0.48 |
 | 7-day sums | 0.556 (BTC / ETH / SOL at 7 days: 0.858 / 0.816 / 0.885) |
+
+![Figure 7](figures/fig7-hype-correlation.png)
+
+*Figure 7. Lag scan for all four cross-venue markets, HYPE correlation by quarter, correlation against aggregation level, scatter of the two venues' HYPE rates per window, and their 30-day means. From docs/03 §8.4.*
 
 The two venues' HYPE funding does co-move, more weakly than for the majors. The
 mechanism by which the two venues' marks moved in opposite directions during those
@@ -383,6 +430,12 @@ hours cannot be established from funding data and is left open (docs/03 §8.4).
   counterfactual in §3.4 uses Hyperliquid's premium; there is no Binance analogue.
 - **The clamp band is inferred** (§3.1), with 8 settlements not reproduced and no
   venue confirmation found.
+- **Binance's clamp band is taken from its documentation**, ±0.05 %, and was not
+  verified from the data: Binance's endpoint does not expose the premium, so the
+  inference applied to Hyperliquid in §3.1 is not possible there. Since this study
+  shows that a venue's documented parameter does not always match the one in force,
+  a constant band on Binance remains an assumption, and the argument of §3.4 depends
+  on it in part.
 - **The cross-venue differential is not explained** (§3.4).
 - **Published rates, not net returns.** The study measures what the venues
   settled. A strategy's return would depend on fees, slippage, basis, margin and

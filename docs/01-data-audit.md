@@ -158,17 +158,17 @@ Source: Hyperliquid docs, *Trading → Funding*,
 <https://hyperliquid.gitbook.io/hyperliquid-docs/trading/funding>, consulted
 2026-09-14. The page's GitBook metadata says "Last updated 2026-04-08T03:25Z".
 
-Verbatim statements from that page:
+Statements from that page, paraphrased (the formula is kept as notation):
 
-- "For consistency with CEXs, interest rate component is predetermined at 0.01% every
-  8 hours, which is 0.00125% every hour, or 11.6% APR paid to short."
-- "The funding rate on Hyperliquid is paid every hour."
-- "The funding rate formula applies to 8 hour funding rate. However, funding is paid
-  every hour at one eighth of the computed rate for each hour."
-- "Funding Rate (F) = Average Premium Index (P) + clamp (interest rate - Premium
-  Index (P), -0.0005, 0.0005)."
-- "The premium is sampled every 5 seconds and averaged over the hour."
-- "Funding on Hyperliquid is capped at 4%/hour."
+- The interest-rate component is fixed, for consistency with centralised exchanges,
+  at 0.01 % per 8 hours, which the page also expresses as 0.00125 % per hour and as
+  11.6 % APR, paid to the short side.
+- Funding is paid every hour.
+- The formula is defined on an 8-hour rate; each hourly payment is one eighth of it.
+- F = P + clamp(interest rate − P, −0.0005, 0.0005), where P is the average premium
+  index.
+- The premium is sampled every 5 seconds and averaged over the hour.
+- Funding is capped at 4 % per hour.
 - HIP-3 perps use a different premium formula and a deployer-set interest rate. The
   five markets in this study (BTC, ETH, SOL, HYPE, PURR) are canonical perps listed in
   the `meta` universe, not HIP-3 markets, so the standard 0.01 %/8 h applies.
@@ -200,7 +200,7 @@ which U3 counts hours above/below base.
   archived copy from web.archive.org during the U2 session (2026-09-14) failed at the
   network level, and no archived copy has been read since. The text diff is therefore
   unknown, and whether the edit added the HIP-3 premium paragraph is **not verified**.
-  Everything quoted above is from the live page as consulted on 2026-09-14.
+  Everything paraphrased above is from the live page as consulted on 2026-09-14.
 - The *data* is unambiguous: the exact string `0.0000125` is the modal `fundingRate` in
   every calendar month of the window for all five coins (counts of records exactly at
   base / records in month):
@@ -303,10 +303,10 @@ Exchange-side documentation of the episodes:
 - SOLUSDT, 2022-11-09: "Updates on Funding Rate Settlement Frequency and Capped Funding
   Rate Multiplier of SOLUSDT, SOLBUSD and SOLUSD Perpetual Futures Contracts",
   effective 2022-11-09 20:00 UTC, settlement every 4 h, cap ±2.00 %, multiplier 0.75 →
-  1. It states: "there may be further adjustments to the funding rate settlement
-  frequency of the aforementioned perpetual futures contracts. There will be no further
-  announcement on such adjustments." The move to 2 h on 2022-11-10 04:00 and back to 8 h
-  on 2022-11-18 08:00 were indeed not announced; they are known only from the data.
+  1. It warns that the settlement frequency of those contracts may be adjusted again
+  and that such adjustments will not be announced. The move to 2 h on 2022-11-10 04:00
+  and back to 8 h on 2022-11-18 08:00 were indeed not announced; they are known only
+  from the data.
   <https://www.binance.com/en/support/announcement/updates-on-funding-rate-settlement-frequency-and-capped-funding-rate-multiplier-of-solusdt-solbusd-and-solusd-perpetual-futures-contracts-2022-11-09-e8be17e1e544418490e86723d84759f0>
 - HYPEUSDT: listed 2025-05-30 10:30 UTC with "Funding Rate Settlement: Every Four
   Hours", cap ±2.00 % (announcement linked in §8).

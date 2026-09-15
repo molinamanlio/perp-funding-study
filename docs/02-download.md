@@ -215,9 +215,9 @@ Binance Futures (`fapi.binance.com`) refuses requests from IP addresses it maps 
 to **public, unauthenticated market-data endpoints** such as `fundingRate` as well; it
 is enforced by IP, not by account.
 
-- **How it manifests.** HTTP status **451 Unavailable For Legal Reasons**, body
-  containing the message "Service unavailable from a restricted location according to
-  'b. Eligibility' in https://www.binance.com/en/terms" (wording as quoted in the
+- **How it manifests.** HTTP status **451 Unavailable For Legal Reasons**, with a
+  body saying that the service is unavailable from a restricted location and pointing
+  to section b, Eligibility, of <https://www.binance.com/en/terms> (as described in the
   community reports below; not observed from this laptop, which is not blocked). The
   downloader prints the body it receives and exits with code 3 without retrying.
 - **Where it fails.** Reported consistently from the United States (residential and
