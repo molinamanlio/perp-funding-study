@@ -454,7 +454,7 @@ case and does not retry. Run it from a non-restricted network; `--only hl`
 downloads the Hyperliquid half from anywhere (docs/02 §8).
 
 ```
-git clone REPOSITORY_URL    # placeholder: see the note after this block
+git clone https://github.com/molinamanlio/perp-funding-study.git
 cd perp-funding-study
 
 # 1. Re-download the nine series (stdlib only) and verify against the frozen baseline
@@ -472,9 +472,6 @@ python3 -m venv .venv
 .venv/bin/python scripts/analyse_clamp.py   # §8, figures 5–7 (run after analyse.py)
 ```
 
-`REPOSITORY_URL` is the only placeholder in this repository. Once the repository
-is published, replace that single token in the block above with its clone URL;
-nothing else needs editing.
 
 Expected outcome of step 1: every baseline record reappears identical, and the
 only records present on one side are those the API served after the baseline's
